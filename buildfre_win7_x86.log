@@ -1,0 +1,3816 @@
+BUILD: Examining c:\users\chase\desktop\insdewindbg directory tree for files to compile.
+1>Compiling (NoSync) c:\users\chase\desktop\insdewindbg\chapter_07\breakondllload *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS1 NOLINK=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_07\breakondllload
+2>Compiling (NoSync) c:\users\chase\desktop\insdewindbg\chapter_07\msicustomaction\customactiondll *************
+2>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS1 NOLINK=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+2>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_07\msicustomaction\customactiondll
+3>Compiling (NoSync) c:\users\chase\desktop\insdewindbg\chapter_08\heapleak\dllheapleak *************
+3>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS1 NOLINK=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+3>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_08\heapleak\dllheapleak
+4>Compiling (NoSync) c:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\singlelockdeadlock *************
+4>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS1 NOLINK=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+4>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\singlelockdeadlock
+3> cl @c:\users\chase\desktop\insdewindbg\chapter_08\heapleak\dllheapleak\objfre_win7_x86\i386\cl.rsp
+2> cl @c:\users\chase\desktop\insdewindbg\chapter_07\msicustomaction\customactiondll\objfre_win7_x86\i386\cl.rsp
+1> cl @c:\users\chase\desktop\insdewindbg\chapter_07\breakondllload\objfre_win7_x86\i386\cl.rsp
+4> cl @c:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\singlelockdeadlock\objfre_win7_x86\i386\cl.rsp
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+2>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+3>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_07\msicustomaction\customactiondll\objfre_win7_x86\i386/"
+2> /FC
+1>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_07\breakondllload\objfre_win7_x86\i386/"
+3>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_08\heapleak\dllheapleak\objfre_win7_x86\i386/"
+3> /FC
+1> /FC
+2> /Ii386
+4>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+4>Copyright (C) Microsoft Corporation.  All rights reserved.
+3> /Ii386
+2> /I.
+1> /Ii386
+3> /I.
+2> /Ic:\WinDDK\7600.16385.1\inc\atl71
+1> /I.
+3> /I..\..\..\common\corelib
+1> /I..\..\common\corelib
+2> /I..\..\..\common\corelib
+3> /Ic:\users\chase\desktop\insdewindbg\chapter_08\heapleak\dllheapleak\objfre_win7_x86\i386
+1> /Ic:\users\chase\desktop\insdewindbg\chapter_07\breakondllload\objfre_win7_x86\i386
+2> /Ic:\users\chase\desktop\insdewindbg\chapter_07\msicustomaction\customactiondll\objfre_win7_x86\i386
+3> /Ic:\WinDDK\7600.16385.1\inc\api
+1> /Ic:\WinDDK\7600.16385.1\inc\api
+2> /Ic:\WinDDK\7600.16385.1\inc\api
+3> /Ic:\WinDDK\7600.16385.1\inc\api
+2> /Ic:\WinDDK\7600.16385.1\inc\api
+1> /Ic:\WinDDK\7600.16385.1\inc\api
+3> /Ic:\WinDDK\7600.16385.1\inc\crt
+1> /Ic:\WinDDK\7600.16385.1\inc\crt
+2> /Ic:\WinDDK\7600.16385.1\inc\crt
+3> /D_X86_=1
+1> /D_X86_=1
+3> /Di386=1
+4>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\singlelockdeadlock\objfre_win7_x86\i386/"
+2> /D_X86_=1
+1> /Di386=1
+4> /FC
+2> /Di386=1
+1> /DSTD_CALL
+3> /DSTD_CALL
+1> /DCONDITION_HANDLING=1
+4> /Ii386
+3> /DCONDITION_HANDLING=1
+2> /DSTD_CALL
+4> /I.
+1> /DNT_UP=1
+2> /DCONDITION_HANDLING=1
+4> /Ic:\WinDDK\7600.16385.1\inc\atl71
+3> /DNT_UP=1
+4> /I..\..\..\common\corelib
+2> /DNT_UP=1
+1> /DNT_INST=0
+3> /DNT_INST=0
+4> /Ic:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\singlelockdeadlock\objfre_win7_x86\i386
+1> /DWIN32=100
+4> /Ic:\WinDDK\7600.16385.1\inc\api
+3> /DWIN32=100
+1> /D_NT1X_=100
+2> /DNT_INST=0
+2> /DWIN32=100
+4> /Ic:\WinDDK\7600.16385.1\inc\api
+3> /D_NT1X_=100
+1> /DWINNT=1
+4> /Ic:\WinDDK\7600.16385.1\inc\crt
+3> /DWINNT=1
+1> /D_WIN32_WINNT=0x0600
+2> /D_NT1X_=100
+4> /D_X86_=1
+2> /DWINNT=1
+3> /D_WIN32_WINNT=0x0600
+1> /DWINVER=0x0600
+4> /Di386=1
+3> /DWINVER=0x0600
+1> /D_WIN32_IE=0x0700
+2> /D_WIN32_WINNT=0x0600
+3> /D_WIN32_IE=0x0700
+4> /DSTD_CALL
+2> /DWINVER=0x0600
+4> /DCONDITION_HANDLING=1
+2> /D_WIN32_IE=0x0700
+4> /DNT_UP=1
+1> /DWIN32_LEAN_AND_MEAN=1
+3> /DWIN32_LEAN_AND_MEAN=1
+1> /DDEVL=1
+4> /DNT_INST=0
+4> /DWIN32=100
+1> /D__BUILDMACHINE__=WinDDK
+2> /DWIN32_LEAN_AND_MEAN=1
+4> /D_NT1X_=100
+3> /DDEVL=1
+1> /DFPO=0
+3> /D__BUILDMACHINE__=WinDDK
+4> /DWINNT=1
+2> /DDEVL=1
+3> /DFPO=0
+1> /DNDEBUG
+4> /D_WIN32_WINNT=0x0600
+2> /D__BUILDMACHINE__=WinDDK
+2> /DFPO=0
+4> /DWINVER=0x0600
+1> /D_DLL=1
+3> /DNDEBUG
+1> /D_MT=1
+4> /D_WIN32_IE=0x0700
+2> /DNDEBUG
+3> /D_DLL=1
+2> /D_DLL=1
+1> -DUNICODE
+2> /D_MT=1
+3> /D_MT=1
+1> -D_UNICODE
+4> /DWIN32_LEAN_AND_MEAN=1
+1> /DNTDDI_VERSION=0x06000100
+2> -DUNICODE
+3> -DUNICODE
+1> /DPSAPI_VERSION=1
+3> -D_UNICODE
+2> -D_UNICODE
+4> /DDEVL=1
+3> /DNTDDI_VERSION=0x06000100
+2> /DNTDDI_VERSION=0x06000100
+3> /DPSAPI_VERSION=1
+2> /DPSAPI_VERSION=1
+4> /D__BUILDMACHINE__=WinDDK
+4> /DFPO=0
+1> /c
+1> /Zc:wchar_t-
+4> /DNDEBUG
+2> /D_ATL_STATIC_REGISTRY
+1> /Zl
+4> /D_DLL=1
+1> /Zp8
+3> /c
+3> /Zc:wchar_t-
+1> /Gy
+2> /c
+4> /D_MT=1
+1> /Gm-
+3> /Zl
+2> /Zc:wchar_t-
+3> /Zp8
+2> /Zl
+4> /DNTDDI_VERSION=0x06000100
+3> /Gy
+1> /W3
+4> /DPSAPI_VERSION=1
+2> /Zp8
+3> /Gm-
+2> /Gy
+1> /WX
+1> /Gz
+2> /Gm-
+3> /W3
+4> /D_ATL_STATIC_REGISTRY
+3> /WX
+2> /W3
+3> /Gz
+1> /hotpatch
+2> /WX
+1> /EHs-c-
+2> /Gz
+4> /c
+4> /Zc:wchar_t-
+3> /hotpatch
+1> /GR-
+4> /Zl
+3> /EHs-c-
+1> /GF
+2> /hotpatch
+4> /Zp8
+1> /GS
+2> /EHs-c-
+3> /GR-
+1> /Zi
+4> /Gy
+1> /Oxs
+2> /GR-
+3> /GF
+4> /Gm-
+3> /GS
+1> /Oy-
+2> /GF
+4> /W3
+3> /Zi
+1> /Zi
+2> /GS
+4> /WX
+3> /Oxs
+1> /Fdc:\users\chase\desktop\insdewindbg\chapter_07\breakondllload\objfre_win7_x86\i386\
+2> /Zi
+4> /Gz
+2> /Oxs
+3> /Oy-
+1> /DKMDF_MAJOR_VERSION_STRING=01
+3> /Zi
+1> /DKMDF_MINOR_VERSION_STRING=009
+2> /Oy-
+4> /hotpatch
+2> /Zi
+1> /wd4603
+3> /Fdc:\users\chase\desktop\insdewindbg\chapter_08\heapleak\dllheapleak\objfre_win7_x86\i386\
+4> /EHs-c-
+1> /wd4627
+2> /Fdc:\users\chase\desktop\insdewindbg\chapter_07\msicustomaction\customactiondll\objfre_win7_x86\i386\
+1> /typedil-
+4> /GR-
+1> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+3> /DKMDF_MAJOR_VERSION_STRING=01
+4> /GF
+2> /DKMDF_MAJOR_VERSION_STRING=01
+3> /DKMDF_MINOR_VERSION_STRING=009
+4> /GS
+2> /DKMDF_MINOR_VERSION_STRING=009
+3> /wd4603
+4> /Zi
+2> /wd4603
+3> /wd4627
+2> /wd4627
+3> /typedil-
+4> /Oxs
+2> /typedil-
+3> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+1> .\main.cpp 
+4> /Oy-
+2> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+4> /Zi
+4> /Fdc:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\singlelockdeadlock\objfre_win7_x86\i386\
+1>main.cpp
+3> .\heapleak.cpp 
+4> /DKMDF_MAJOR_VERSION_STRING=01
+2> .\main.cpp 
+4> /DKMDF_MINOR_VERSION_STRING=009
+4> /wd4603
+3>heapleak.cpp
+4> /wd4627
+4> /typedil-
+2>main.cpp
+4> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+4> .\test.cpp 
+4>test.cpp
+3> link.exe /lib /out:c:\users\chase\desktop\insdewindbg\chapter_08\heapleak\dllheapleak\objfre_win7_x86\i386\HeapLeak.lib @c:\users\chase\desktop\insdewindbg\chapter_08\heapleak\dllheapleak\objfre_win7_x86\i386\lib.rsp
+1> link.exe /lib /out:c:\users\chase\desktop\insdewindbg\chapter_07\breakondllload\objfre_win7_x86\i386\DllModule.lib @c:\users\chase\desktop\insdewindbg\chapter_07\breakondllload\objfre_win7_x86\i386\lib.rsp
+3>Microsoft (R) Library Manager Version 9.00.30729.207
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+3>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+3>/WX 
+3>/nodefaultlib 
+3>/machine:ix86 
+3>/def:heapleak.def 
+3>c:\users\chase\desktop\insdewindbg\chapter_08\heapleak\dllheapleak\objfre_win7_x86\i386\heapleak.obj 
+1>Microsoft (R) Library Manager Version 9.00.30729.207
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+1>/WX 
+1>/nodefaultlib 
+1>/machine:ix86 
+1>/def:main.def 
+1>c:\users\chase\desktop\insdewindbg\chapter_07\breakondllload\objfre_win7_x86\i386\main.obj 
+1> Creating library c:\users\chase\desktop\insdewindbg\chapter_07\breakondllload\objfre_win7_x86\i386\DllModule.lib and object c:\users\chase\desktop\insdewindbg\chapter_07\breakondllload\objfre_win7_x86\i386\DllModule.exp
+3> Creating library c:\users\chase\desktop\insdewindbg\chapter_08\heapleak\dllheapleak\objfre_win7_x86\i386\HeapLeak.lib and object c:\users\chase\desktop\insdewindbg\chapter_08\heapleak\dllheapleak\objfre_win7_x86\i386\HeapLeak.exp
+3>Compiling (NoSync) c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\bug *************
+3>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS1 NOLINK=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+3>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\bug
+1>Compiling (NoSync) c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\fix *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS1 NOLINK=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\fix
+3> cl @c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\bug\objfre_win7_x86\i386\cl.rsp
+1> cl @c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\fix\objfre_win7_x86\i386\cl.rsp
+3>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+3>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\bug\objfre_win7_x86\i386/"
+3> /FC
+3> /Ii386
+3> /I.
+3> /Ic:\WinDDK\7600.16385.1\inc\atl71
+3> /I..\..\..\common\corelib
+3> /Ic:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\bug\objfre_win7_x86\i386
+3> /Ic:\WinDDK\7600.16385.1\inc\api
+3> /Ic:\WinDDK\7600.16385.1\inc\api
+3> /Ic:\WinDDK\7600.16385.1\inc\crt
+3> /D_X86_=1
+3> /Di386=1
+3> /DSTD_CALL
+3> /DCONDITION_HANDLING=1
+3> /DNT_UP=1
+3> /DNT_INST=0
+3> /DWIN32=100
+3> /D_NT1X_=100
+3> /DWINNT=1
+3> /D_WIN32_WINNT=0x0600
+3> /DWINVER=0x0600
+3> /D_WIN32_IE=0x0700
+3> /DWIN32_LEAN_AND_MEAN=1
+3> /DDEVL=1
+3> /D__BUILDMACHINE__=WinDDK
+3> /DFPO=0
+3> /DNDEBUG
+3> /D_DLL=1
+3> /D_MT=1
+3> -DUNICODE
+3> -D_UNICODE
+3> /DNTDDI_VERSION=0x06000100
+3> /DPSAPI_VERSION=1
+3> /D_ATL_STATIC_REGISTRY
+3> /c
+3> /Zc:wchar_t-
+3> /Zl
+3> /Zp8
+3> /Gy
+3> /Gm-
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+3> /W3
+3> /WX
+3> /Gz
+3> /hotpatch
+3> /EHs-c-
+3> /GR-
+3> /GF
+3> /GS
+1>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\fix\objfre_win7_x86\i386/"
+3> /Zi
+1> /FC
+3> /Oxs
+1> /Ii386
+1> /I.
+3> /Oy-
+1> /Ic:\WinDDK\7600.16385.1\inc\atl71
+3> /Zi
+1> /I..\..\..\common\corelib
+1> /Ic:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\fix\objfre_win7_x86\i386
+3> /Fdc:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\bug\objfre_win7_x86\i386\
+1> /Ic:\WinDDK\7600.16385.1\inc\api
+1> /Ic:\WinDDK\7600.16385.1\inc\api
+1> /Ic:\WinDDK\7600.16385.1\inc\crt
+3> /DKMDF_MAJOR_VERSION_STRING=01
+3> /DKMDF_MINOR_VERSION_STRING=009
+1> /D_X86_=1
+3> /wd4603
+1> /Di386=1
+3> /wd4627
+3> /typedil-
+3> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+1> /DSTD_CALL
+1> /DCONDITION_HANDLING=1
+1> /DNT_UP=1
+1> /DNT_INST=0
+3> .\test.cpp 
+1> /DWIN32=100
+1> /D_NT1X_=100
+1> /DWINNT=1
+1> /D_WIN32_WINNT=0x0600
+1> /DWINVER=0x0600
+1> /D_WIN32_IE=0x0700
+3>test.cpp
+1> /DWIN32_LEAN_AND_MEAN=1
+1> /DDEVL=1
+1> /D__BUILDMACHINE__=WinDDK
+1> /DFPO=0
+1> /DNDEBUG
+1> /D_DLL=1
+1> /D_MT=1
+1> -DUNICODE
+1> -D_UNICODE
+1> /DNTDDI_VERSION=0x06000100
+1> /DPSAPI_VERSION=1
+1> /D_ATL_STATIC_REGISTRY
+1> /c
+1> /Zc:wchar_t-
+1> /Zl
+1> /Zp8
+1> /Gy
+1> /Gm-
+1> /W3
+1> /WX
+1> /Gz
+1> /hotpatch
+1> /EHs-c-
+1> /GR-
+1> /GF
+1> /GS
+1> /Zi
+1> /Oxs
+1> /Oy-
+1> /Zi
+1> /Fdc:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\fix\objfre_win7_x86\i386\
+1> /DKMDF_MAJOR_VERSION_STRING=01
+1> /DKMDF_MINOR_VERSION_STRING=009
+1> /wd4603
+1> /wd4627
+1> /typedil-
+1> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+1> .\test.cpp 
+1>test.cpp
+2> link.exe /lib /out:c:\users\chase\desktop\insdewindbg\chapter_07\msicustomaction\customactiondll\objfre_win7_x86\i386\CustomActionDll.lib @c:\users\chase\desktop\insdewindbg\chapter_07\msicustomaction\customactiondll\objfre_win7_x86\i386\lib.rsp
+4> link.exe /lib /out:c:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\singlelockdeadlock\objfre_win7_x86\i386\test.lib @c:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\singlelockdeadlock\objfre_win7_x86\i386\lib.rsp
+2>Microsoft (R) Library Manager Version 9.00.30729.207
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+2>/WX 
+2>/nodefaultlib 
+2>/machine:ix86 
+2>/def:customactiondll.def 
+2>c:\users\chase\desktop\insdewindbg\chapter_07\msicustomaction\customactiondll\objfre_win7_x86\i386\main.obj 
+4>Microsoft (R) Library Manager Version 9.00.30729.207
+4>Copyright (C) Microsoft Corporation.  All rights reserved.
+4>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+4>/WX 
+4>/nodefaultlib 
+4>/machine:ix86 
+4>/def:test.def 
+4>c:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\singlelockdeadlock\objfre_win7_x86\i386\test.obj 
+4> Creating library c:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\singlelockdeadlock\objfre_win7_x86\i386\test.lib and object c:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\singlelockdeadlock\objfre_win7_x86\i386\test.exp
+2> Creating library c:\users\chase\desktop\insdewindbg\chapter_07\msicustomaction\customactiondll\objfre_win7_x86\i386\CustomActionDll.lib and object c:\users\chase\desktop\insdewindbg\chapter_07\msicustomaction\customactiondll\objfre_win7_x86\i386\CustomActionDll.exp
+1> link.exe /lib /out:c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\fix\objfre_win7_x86\i386\test.lib @c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\fix\objfre_win7_x86\i386\lib.rsp
+3> link.exe /lib /out:c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\bug\objfre_win7_x86\i386\test.lib @c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\bug\objfre_win7_x86\i386\lib.rsp
+1>Microsoft (R) Library Manager Version 9.00.30729.207
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+1>/WX 
+1>/nodefaultlib 
+1>/machine:ix86 
+1>/def:test.def 
+1>c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\fix\objfre_win7_x86\i386\test.obj 
+3>Microsoft (R) Library Manager Version 9.00.30729.207
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+3>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+3>/WX 
+3>/nodefaultlib 
+3>/machine:ix86 
+3>/def:test.def 
+3>c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\bug\objfre_win7_x86\i386\test.obj 
+1> Creating library c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\fix\objfre_win7_x86\i386\test.lib and object c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\fix\objfre_win7_x86\i386\test.exp
+3> Creating library c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\bug\objfre_win7_x86\i386\test.lib and object c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\bug\objfre_win7_x86\i386\test.exp
+1>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_01\workerprocess *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_01\workerprocess
+2>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_02\helloworld *************
+2>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+2>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_02\helloworld
+3>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_03\basicexception *************
+3>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+3>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_03\basicexception
+4>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_04\nulldereference *************
+4>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+4>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_04\nulldereference
+2> cl @c:\users\chase\desktop\insdewindbg\chapter_02\helloworld\objfre_win7_x86\i386\cl.rsp
+1> cl @c:\users\chase\desktop\insdewindbg\chapter_01\workerprocess\objfre_win7_x86\i386\cl.rsp
+3> cl @c:\users\chase\desktop\insdewindbg\chapter_03\basicexception\objfre_win7_x86\i386\cl.rsp
+2>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_02\helloworld\objfre_win7_x86\i386/"
+1>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_01\workerprocess\objfre_win7_x86\i386/"
+2> /FC
+1> /FC
+2> /Ii386
+2> /I.
+1> /Ii386
+2> /I..\..\common\corelib
+2> /Ic:\users\chase\desktop\insdewindbg\chapter_02\helloworld\objfre_win7_x86\i386
+1> /I.
+2> /Ic:\WinDDK\7600.16385.1\inc\api
+2> /Ic:\WinDDK\7600.16385.1\inc\api
+2> /Ic:\WinDDK\7600.16385.1\inc\crt
+1> /Ic:\WinDDK\7600.16385.1\inc\atl71
+2> /D_X86_=1
+2> /Di386=1
+1> /I..\..\common\corelib
+2> /DSTD_CALL
+2> /DCONDITION_HANDLING=1
+2> /DNT_UP=1
+1> /Ic:\users\chase\desktop\insdewindbg\chapter_01\workerprocess\objfre_win7_x86\i386
+2> /DNT_INST=0
+1> /Ic:\WinDDK\7600.16385.1\inc\api
+2> /DWIN32=100
+2> /D_NT1X_=100
+1> /Ic:\WinDDK\7600.16385.1\inc\api
+2> /DWINNT=1
+2> /D_WIN32_WINNT=0x0600
+1> /Ic:\WinDDK\7600.16385.1\inc\crt
+2> /DWINVER=0x0600
+2> /D_WIN32_IE=0x0700
+1> /D_X86_=1
+1> /Di386=1
+2> /DWIN32_LEAN_AND_MEAN=1
+1> /DSTD_CALL
+1> /DCONDITION_HANDLING=1
+2> /DDEVL=1
+1> /DNT_UP=1
+2> /D__BUILDMACHINE__=WinDDK
+2> /DFPO=0
+1> /DNT_INST=0
+1> /DWIN32=100
+2> /DNDEBUG
+1> /D_NT1X_=100
+2> /D_DLL=1
+2> /D_MT=1
+1> /DWINNT=1
+1> /D_WIN32_WINNT=0x0600
+2> -DUNICODE
+1> /DWINVER=0x0600
+2> -D_UNICODE
+1> /D_WIN32_IE=0x0700
+2> /DNTDDI_VERSION=0x06000100
+2> /DPSAPI_VERSION=1
+1> /DWIN32_LEAN_AND_MEAN=1
+1> /DDEVL=1
+2> /c
+1> /D__BUILDMACHINE__=WinDDK
+1> /DFPO=0
+2> /Zc:wchar_t-
+2> /Zl
+1> /DNDEBUG
+2> /Zp8
+1> /D_DLL=1
+1> /D_MT=1
+2> /Gy
+1> -DUNICODE
+2> /Gm-
+1> -D_UNICODE
+1> /DNTDDI_VERSION=0x06000100
+2> /W3
+2> /WX
+1> /DPSAPI_VERSION=1
+2> /Gz
+1> /D_ATL_STATIC_REGISTRY
+2> /hotpatch
+2> /EHs-c-
+2> /GR-
+1> /c
+1> /Zc:wchar_t-
+1> /Zl
+2> /GF
+1> /Zp8
+2> /GS
+1> /Gy
+1> /Gm-
+2> /Zi
+2> /Oxs
+1> /W3
+1> /WX
+2> /Oy-
+1> /Gz
+2> /Zi
+2> /Fdc:\users\chase\desktop\insdewindbg\chapter_02\helloworld\objfre_win7_x86\i386\
+1> /hotpatch
+1> /EHs-c-
+2> /DKMDF_MAJOR_VERSION_STRING=01
+1> /GR-
+2> /DKMDF_MINOR_VERSION_STRING=009
+1> /GF
+2> /wd4603
+1> /GS
+2> /wd4627
+1> /Zi
+2> /typedil-
+1> /Oxs
+2> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+1> /Oy-
+1> /Zi
+1> /Fdc:\users\chase\desktop\insdewindbg\chapter_01\workerprocess\objfre_win7_x86\i386\
+2> .\main.cpp 
+1> /DKMDF_MAJOR_VERSION_STRING=01
+1> /DKMDF_MINOR_VERSION_STRING=009
+4> cl @c:\users\chase\desktop\insdewindbg\chapter_04\nulldereference\objfre_win7_x86\i386\cl.rsp
+1> /wd4603
+2>main.cpp
+3>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+1> /wd4627
+1> /typedil-
+1> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+3>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_03\basicexception\objfre_win7_x86\i386/"
+3> /FC
+3> /Ii386
+3> /I.
+3> /I..\..\common\corelib
+3> /Ic:\users\chase\desktop\insdewindbg\chapter_03\basicexception\objfre_win7_x86\i386
+3> /Ic:\WinDDK\7600.16385.1\inc\api
+1> .\main.cpp 
+3> /Ic:\WinDDK\7600.16385.1\inc\api
+3> /Ic:\WinDDK\7600.16385.1\inc\crt
+3> /D_X86_=1
+1>main.cpp
+3> /Di386=1
+3> /DSTD_CALL
+3> /DCONDITION_HANDLING=1
+3> /DNT_UP=1
+3> /DNT_INST=0
+3> /DWIN32=100
+3> /D_NT1X_=100
+3> /DWINNT=1
+3> /D_WIN32_WINNT=0x0600
+3> /DWINVER=0x0600
+3> /D_WIN32_IE=0x0700
+3> /DWIN32_LEAN_AND_MEAN=1
+3> /DDEVL=1
+3> /D__BUILDMACHINE__=WinDDK
+3> /DFPO=0
+3> /DNDEBUG
+3> /D_DLL=1
+3> /D_MT=1
+3> -DUNICODE
+3> -D_UNICODE
+3> /DNTDDI_VERSION=0x06000100
+3> /DPSAPI_VERSION=1
+3> /c
+3> /Zc:wchar_t-
+3> /Zl
+3> /Zp8
+3> /Gy
+3> /Gm-
+3> /W3
+3> /WX
+3> /Gz
+3> /hotpatch
+3> /EHs-c-
+3> /GR-
+3> /GF
+3> /GS
+3> /Zi
+3> /Oxs
+3> /Oy-
+3> /Zi
+3> /Fdc:\users\chase\desktop\insdewindbg\chapter_03\basicexception\objfre_win7_x86\i386\
+3> /DKMDF_MAJOR_VERSION_STRING=01
+3> /DKMDF_MINOR_VERSION_STRING=009
+3> /wd4603
+3> /wd4627
+3> /typedil-
+3> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+3> .\main.cpp 
+3>main.cpp
+4>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+4>Copyright (C) Microsoft Corporation.  All rights reserved.
+4>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_04\nulldereference\objfre_win7_x86\i386/"
+4> /FC
+4> /Ii386
+4> /I.
+4> /Ic:\users\chase\desktop\insdewindbg\chapter_04\nulldereference\objfre_win7_x86\i386
+4> /Ic:\WinDDK\7600.16385.1\inc\api
+4> /Ic:\WinDDK\7600.16385.1\inc\api
+4> /Ic:\WinDDK\7600.16385.1\inc\crt
+4> /D_X86_=1
+4> /Di386=1
+4> /DSTD_CALL
+4> /DCONDITION_HANDLING=1
+4> /DNT_UP=1
+4> /DNT_INST=0
+4> /DWIN32=100
+4> /D_NT1X_=100
+4> /DWINNT=1
+4> /D_WIN32_WINNT=0x0600
+4> /DWINVER=0x0600
+4> /D_WIN32_IE=0x0700
+4> /DWIN32_LEAN_AND_MEAN=1
+4> /DDEVL=1
+4> /D__BUILDMACHINE__=WinDDK
+4> /DFPO=0
+4> /DNDEBUG
+4> /D_DLL=1
+4> /D_MT=1
+4> -DUNICODE
+4> -D_UNICODE
+4> /DNTDDI_VERSION=0x06000100
+4> /DPSAPI_VERSION=1
+4> /c
+4> /Zc:wchar_t-
+4> /Zl
+4> /Zp8
+4> /Gy
+4> /Gm-
+4> /W3
+4> /WX
+4> /Gz
+4> /hotpatch
+4> /EHs-c-
+4> /GR-
+4> /GF
+4> /GS
+4> /Zi
+4> /Oxs
+4> /Oy-
+4> /Zi
+4> /Fdc:\users\chase\desktop\insdewindbg\chapter_04\nulldereference\objfre_win7_x86\i386\
+4> /DKMDF_MAJOR_VERSION_STRING=01
+4> /DKMDF_MINOR_VERSION_STRING=009
+4> /wd4603
+4> /wd4627
+4> /typedil-
+4> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+4> .\main.cpp 
+4>main.cpp
+2> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_02\helloworld\objfre_win7_x86\i386\HelloWorld.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_02\helloworld\objfre_win7_x86\i386\lnk.rsp
+3> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_03\basicexception\objfre_win7_x86\i386\BasicException.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_03\basicexception\objfre_win7_x86\i386\lnk.rsp
+2>Microsoft (R) Incremental Linker Version 9.00.30729.207
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>/MERGE:_PAGE=PAGE 
+2>/MERGE:_TEXT=.text 
+2>/SECTION:INIT,d 
+2>/OPT:REF 
+2>/OPT:ICF 
+2>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+2>/INCREMENTAL:NO 
+2>/release 
+2>/NODEFAULTLIB 
+2>/WX 
+2>/debug 
+2>/debugtype:cv,fixup,pdata 
+2>/version:6.1 
+2>/osversion:6.1 
+2>/functionpadmin:5 
+2>/safeseh 
+2>/nxcompat 
+2>/merge:.rdata=.text 
+2>/pdbcompress 
+2>/STACK:0x40000,0x2000 
+2>/tsaware 
+2>/dynamicbase 
+2>/subsystem:console,6.00 
+2>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+2>/entry:wmainCRTStartup 
+2>c:\users\chase\desktop\insdewindbg\chapter_02\helloworld\objfre_win7_x86\i386\main.obj 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+2>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+3>Microsoft (R) Incremental Linker Version 9.00.30729.207
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+3>/MERGE:_PAGE=PAGE 
+3>/MERGE:_TEXT=.text 
+3>/SECTION:INIT,d 
+3>/OPT:REF 
+3>/OPT:ICF 
+3>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+3>/INCREMENTAL:NO 
+3>/release 
+3>/NODEFAULTLIB 
+3>/WX 
+3>/debug 
+3>/debugtype:cv,fixup,pdata 
+3>/version:6.1 
+3>/osversion:6.1 
+3>/functionpadmin:5 
+3>/safeseh 
+3>/nxcompat 
+3>/merge:.rdata=.text 
+3>/pdbcompress 
+3>/STACK:0x40000,0x2000 
+3>/tsaware 
+3>/dynamicbase 
+3>/subsystem:console,6.00 
+3>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+3>/entry:wmainCRTStartup 
+3>c:\users\chase\desktop\insdewindbg\chapter_03\basicexception\objfre_win7_x86\i386\main.obj 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+3>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+4> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_04\nulldereference\objfre_win7_x86\i386\NullDereference.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_04\nulldereference\objfre_win7_x86\i386\lnk.rsp
+4>Microsoft (R) Incremental Linker Version 9.00.30729.207
+4>Copyright (C) Microsoft Corporation.  All rights reserved.
+4>/MERGE:_PAGE=PAGE 
+4>/MERGE:_TEXT=.text 
+4>/SECTION:INIT,d 
+4>/OPT:REF 
+4>/OPT:ICF 
+4>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+4>/INCREMENTAL:NO 
+4>/release 
+4>/NODEFAULTLIB 
+4>/WX 
+4>/debug 
+4>/debugtype:cv,fixup,pdata 
+4>/version:6.1 
+4>/osversion:6.1 
+4>/functionpadmin:5 
+4>/safeseh 
+4>/nxcompat 
+4>/merge:.rdata=.text 
+4>/pdbcompress 
+4>/STACK:0x40000,0x2000 
+4>/tsaware 
+4>/dynamicbase 
+4>/subsystem:console,6.00 
+4>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+4>/entry:wmainCRTStartup 
+4>c:\users\chase\desktop\insdewindbg\chapter_04\nulldereference\objfre_win7_x86\i386\main.obj 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+4>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+4>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_04\servicecrash *************
+4>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+4>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_04\servicecrash
+2>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_05\crtcleanup *************
+2>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+2>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_05\crtcleanup
+3>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_05\stlsample *************
+3>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+3>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_05\stlsample
+4> cl @c:\users\chase\desktop\insdewindbg\chapter_04\servicecrash\objfre_win7_x86\i386\cl.rsp
+2> cl @c:\users\chase\desktop\insdewindbg\chapter_05\crtcleanup\objfre_win7_x86\i386\cl.rsp
+3> cl @c:\users\chase\desktop\insdewindbg\chapter_05\stlsample\objfre_win7_x86\i386\cl.rsp
+4>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+4>Copyright (C) Microsoft Corporation.  All rights reserved.
+4>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_04\servicecrash\objfre_win7_x86\i386/"
+4> /FC
+4> /Ii386
+4> /I.
+4> /I..\..\common\corelib
+4> /Ic:\users\chase\desktop\insdewindbg\chapter_04\servicecrash\objfre_win7_x86\i386
+4> /Ic:\WinDDK\7600.16385.1\inc\api
+4> /Ic:\WinDDK\7600.16385.1\inc\api
+4> /Ic:\WinDDK\7600.16385.1\inc\crt
+4> /D_X86_=1
+4> /Di386=1
+4> /DSTD_CALL
+4> /DCONDITION_HANDLING=1
+2>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+4> /DNT_UP=1
+2>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_05\crtcleanup\objfre_win7_x86\i386/"
+2> /FC
+4> /DNT_INST=0
+4> /DWIN32=100
+2> /Ii386
+4> /D_NT1X_=100
+2> /I.
+2> /Ic:\WinDDK\7600.16385.1\inc\atl71
+4> /DWINNT=1
+2> /I..\..\common\corelib
+4> /D_WIN32_WINNT=0x0600
+2> /Ic:\users\chase\desktop\insdewindbg\chapter_05\crtcleanup\objfre_win7_x86\i386
+2> /Ic:\WinDDK\7600.16385.1\inc\api
+4> /DWINVER=0x0600
+2> /Ic:\WinDDK\7600.16385.1\inc\api
+4> /D_WIN32_IE=0x0700
+2> /Ic:\WinDDK\7600.16385.1\inc\crt
+2> /D_X86_=1
+2> /Di386=1
+4> /DWIN32_LEAN_AND_MEAN=1
+2> /DSTD_CALL
+4> /DDEVL=1
+2> /DCONDITION_HANDLING=1
+4> /D__BUILDMACHINE__=WinDDK
+2> /DNT_UP=1
+4> /DFPO=0
+2> /DNT_INST=0
+4> /DNDEBUG
+2> /DWIN32=100
+4> /D_DLL=1
+2> /D_NT1X_=100
+4> /D_MT=1
+2> /DWINNT=1
+4> -DUNICODE
+4> -D_UNICODE
+2> /D_WIN32_WINNT=0x0600
+2> /DWINVER=0x0600
+4> /DNTDDI_VERSION=0x06000100
+4> /DPSAPI_VERSION=1
+2> /D_WIN32_IE=0x0700
+2> /DWIN32_LEAN_AND_MEAN=1
+4> /c
+2> /DDEVL=1
+4> /Zc:wchar_t-
+4> /Zl
+2> /D__BUILDMACHINE__=WinDDK
+4> /Zp8
+2> /DFPO=0
+4> /Gy
+4> /Gm-
+2> /DNDEBUG
+4> /W3
+2> /D_DLL=1
+2> /D_MT=1
+4> /WX
+4> /Gz
+2> -DUNICODE
+2> -D_UNICODE
+2> /DNTDDI_VERSION=0x06000100
+2> /DPSAPI_VERSION=1
+2> /D_ATL_STATIC_REGISTRY
+4> /hotpatch
+4> /EHs-c-
+4> /GR-
+4> /GF
+4> /GS
+4> /Zi
+4> /Oxs
+2> /c
+2> /Zc:wchar_t-
+4> /Oy-
+2> /Zl
+4> /Zi
+2> /Zp8
+4> /Fdc:\users\chase\desktop\insdewindbg\chapter_04\servicecrash\objfre_win7_x86\i386\
+2> /Gy
+2> /Gm-
+4> /DKMDF_MAJOR_VERSION_STRING=01
+4> /DKMDF_MINOR_VERSION_STRING=009
+2> /W3
+4> /wd4603
+4> /wd4627
+2> /WX
+2> /Gz
+4> /typedil-
+4> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+2> /hotpatch
+2> /EHs-c-
+4> .\main.cpp 
+2> /GR-
+2> /GF
+2> /GS
+2> /Zi
+2> /Oxs
+2> /Oy-
+2> /Zi
+2> /Fdc:\users\chase\desktop\insdewindbg\chapter_05\crtcleanup\objfre_win7_x86\i386\
+4>main.cpp
+2> /DKMDF_MAJOR_VERSION_STRING=01
+2> /DKMDF_MINOR_VERSION_STRING=009
+2> /wd4603
+3>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+2> /wd4627
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+2> /typedil-
+2> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+2> .\main.cpp 
+3>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_05\stlsample\objfre_win7_x86\i386/"
+3> /FC
+3> /Ii386
+3> /I.
+3> /I..\..\common\corelib
+3> /Ic:\users\chase\desktop\insdewindbg\chapter_05\stlsample\objfre_win7_x86\i386
+3> /Ic:\WinDDK\7600.16385.1\inc\api
+3> /Ic:\WinDDK\7600.16385.1\inc\api
+2>main.cpp
+3> /Ic:\WinDDK\7600.16385.1\inc\crt
+3> /Ic:\WinDDK\7600.16385.1\inc\api\crt\stl70
+3> /D_X86_=1
+3> /Di386=1
+3> /DSTD_CALL
+3> /DCONDITION_HANDLING=1
+3> /DNT_UP=1
+3> /DNT_INST=0
+3> /DWIN32=100
+3> /D_NT1X_=100
+3> /DWINNT=1
+3> /D_WIN32_WINNT=0x0600
+3> /DWINVER=0x0600
+3> /D_WIN32_IE=0x0700
+3> /DWIN32_LEAN_AND_MEAN=1
+3> /DDEVL=1
+3> /D__BUILDMACHINE__=WinDDK
+3> /DFPO=0
+3> /DNDEBUG
+3> /D_STATIC_CPPLIB
+3> /D_STL70_
+3> /D_DLL=1
+3> /D_MT=1
+3> -DUNICODE
+3> -D_UNICODE
+3> /DNTDDI_VERSION=0x06000100
+3> /DPSAPI_VERSION=1
+3> /c
+3> /Zc:wchar_t-
+3> /Zl
+3> /Zp8
+3> /Gy
+3> /Gm-
+3> /W3
+3> /WX
+3> /Gz
+3> /hotpatch
+3> /EHsc
+3> /GR-
+3> /GF
+3> /GS
+3> /Zi
+3> /Oxs
+3> /Oy-
+3> /Zi
+3> /Fdc:\users\chase\desktop\insdewindbg\chapter_05\stlsample\objfre_win7_x86\i386\
+3> /DKMDF_MAJOR_VERSION_STRING=01
+3> /DKMDF_MINOR_VERSION_STRING=009
+3> /wd4603
+3> /wd4627
+3> /typedil-
+3> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+3> .\main.cpp 
+3>main.cpp
+1> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_01\workerprocess\objfre_win7_x86\i386\workerprocess.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_01\workerprocess\objfre_win7_x86\i386\lnk.rsp
+1>Microsoft (R) Incremental Linker Version 9.00.30729.207
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/MERGE:_PAGE=PAGE 
+1>/MERGE:_TEXT=.text 
+1>/SECTION:INIT,d 
+1>/OPT:REF 
+1>/OPT:ICF 
+1>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+1>/INCREMENTAL:NO 
+1>/release 
+1>/NODEFAULTLIB 
+1>/WX 
+1>/debug 
+1>/debugtype:cv,fixup,pdata 
+1>/version:6.1 
+1>/osversion:6.1 
+1>/functionpadmin:5 
+1>/safeseh 
+1>/nxcompat 
+1>/merge:.rdata=.text 
+1>/pdbcompress 
+1>/STACK:0x40000,0x2000 
+1>/tsaware 
+1>/dynamicbase 
+1>/subsystem:console,6.00 
+1>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+1>/entry:wmainCRTStartup 
+1>c:\users\chase\desktop\insdewindbg\chapter_01\workerprocess\objfre_win7_x86\i386\main.obj 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+1>c:\WinDDK\7600.16385.1\lib\atl\i386\atls.lib 
+1>c:\WinDDK\7600.16385.1\lib\atl\i386\atlthunk.lib 
+1>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\oleaut32.lib 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\user32.lib 
+4> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_04\servicecrash\objfre_win7_x86\i386\ServiceWithCrash.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_04\servicecrash\objfre_win7_x86\i386\lnk.rsp
+4>Microsoft (R) Incremental Linker Version 9.00.30729.207
+4>Copyright (C) Microsoft Corporation.  All rights reserved.
+4>/MERGE:_PAGE=PAGE 
+4>/MERGE:_TEXT=.text 
+4>/SECTION:INIT,d 
+4>/OPT:REF 
+4>/OPT:ICF 
+4>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+4>/INCREMENTAL:NO 
+4>/release 
+4>/NODEFAULTLIB 
+4>/WX 
+4>/debug 
+4>/debugtype:cv,fixup,pdata 
+4>/version:6.1 
+4>/osversion:6.1 
+4>/functionpadmin:5 
+4>/safeseh 
+4>/nxcompat 
+4>/merge:.rdata=.text 
+4>/pdbcompress 
+4>/STACK:0x40000,0x2000 
+4>/tsaware 
+4>/dynamicbase 
+4>/subsystem:console,6.00 
+4>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+4>/entry:wmainCRTStartup 
+4>c:\users\chase\desktop\insdewindbg\chapter_04\servicecrash\objfre_win7_x86\i386\main.obj 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+4>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+1>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_06\badhandle *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_06\badhandle
+4>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_06\bufferoverrun *************
+4>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+4>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_06\bufferoverrun
+1> cl @c:\users\chase\desktop\insdewindbg\chapter_06\badhandle\objfre_win7_x86\i386\cl.rsp
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_06\badhandle\objfre_win7_x86\i386/"
+1> /FC
+1> /Ii386
+1> /I.
+1> /Ic:\WinDDK\7600.16385.1\inc\atl71
+1> /I..\..\common\corelib
+1> /Ic:\users\chase\desktop\insdewindbg\chapter_06\badhandle\objfre_win7_x86\i386
+1> /Ic:\WinDDK\7600.16385.1\inc\api
+1> /Ic:\WinDDK\7600.16385.1\inc\api
+1> /Ic:\WinDDK\7600.16385.1\inc\crt
+1> /D_X86_=1
+1> /Di386=1
+1> /DSTD_CALL
+1> /DCONDITION_HANDLING=1
+1> /DNT_UP=1
+1> /DNT_INST=0
+1> /DWIN32=100
+1> /D_NT1X_=100
+1> /DWINNT=1
+1> /D_WIN32_WINNT=0x0600
+1> /DWINVER=0x0600
+1> /D_WIN32_IE=0x0700
+1> /DWIN32_LEAN_AND_MEAN=1
+1> /DDEVL=1
+1> /D__BUILDMACHINE__=WinDDK
+1> /DFPO=0
+1> /DNDEBUG
+1> /D_DLL=1
+1> /D_MT=1
+1> -DUNICODE
+1> -D_UNICODE
+1> /DNTDDI_VERSION=0x06000100
+1> /DPSAPI_VERSION=1
+1> /D_ATL_STATIC_REGISTRY
+1> /c
+1> /Zc:wchar_t-
+1> /Zl
+1> /Zp8
+1> /Gy
+1> /Gm-
+1> /W3
+1> /WX
+1> /Gz
+1> /hotpatch
+1> /EHs-c-
+1> /GR-
+1> /GF
+1> /GS
+1> /Zi
+1> /Oxs
+1> /Oy-
+1> /Zi
+1> /Fdc:\users\chase\desktop\insdewindbg\chapter_06\badhandle\objfre_win7_x86\i386\
+1> /DKMDF_MAJOR_VERSION_STRING=01
+1> /DKMDF_MINOR_VERSION_STRING=009
+1> /wd4603
+1> /wd4627
+1> /typedil-
+1> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+1> .\main.cpp 
+1>main.cpp
+4> cl @c:\users\chase\desktop\insdewindbg\chapter_06\bufferoverrun\objfre_win7_x86\i386\cl.rsp
+4>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+4>Copyright (C) Microsoft Corporation.  All rights reserved.
+4>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_06\bufferoverrun\objfre_win7_x86\i386/"
+4> /FC
+4> /Ii386
+4> /I.
+4> /I..\..\common\corelib
+4> /Ic:\users\chase\desktop\insdewindbg\chapter_06\bufferoverrun\objfre_win7_x86\i386
+4> /Ic:\WinDDK\7600.16385.1\inc\api
+4> /Ic:\WinDDK\7600.16385.1\inc\api
+4> /Ic:\WinDDK\7600.16385.1\inc\crt
+4> /D_X86_=1
+4> /Di386=1
+4> /DSTD_CALL
+4> /DCONDITION_HANDLING=1
+4> /DNT_UP=1
+4> /DNT_INST=0
+4> /DWIN32=100
+4> /D_NT1X_=100
+4> /DWINNT=1
+4> /D_WIN32_WINNT=0x0600
+4> /DWINVER=0x0600
+4> /D_WIN32_IE=0x0700
+4> /DWIN32_LEAN_AND_MEAN=1
+4> /DDEVL=1
+4> /D__BUILDMACHINE__=WinDDK
+4> /DFPO=0
+4> /DNDEBUG
+4> /D_DLL=1
+2> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_05\crtcleanup\objfre_win7_x86\i386\crtcleanup.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_05\crtcleanup\objfre_win7_x86\i386\lnk.rsp
+4> /D_MT=1
+4> -DUNICODE
+4> -D_UNICODE
+4> /DNTDDI_VERSION=0x06000100
+4> /DPSAPI_VERSION=1
+4> /c
+4> /Zc:wchar_t-
+4> /Zl
+4> /Zp8
+4> /Gy
+4> /Gm-
+4> /W3
+4> /WX
+4> /Gz
+4> /hotpatch
+4> /EHs-c-
+4> /GR-
+4> /GF
+4> /GS
+4> /Zi
+4> /Oxs
+4> /Oy-
+4> /Zi
+4> /Fdc:\users\chase\desktop\insdewindbg\chapter_06\bufferoverrun\objfre_win7_x86\i386\
+4> /DKMDF_MAJOR_VERSION_STRING=01
+4> /DKMDF_MINOR_VERSION_STRING=009
+4> /wd4603
+4> /wd4627
+4> /typedil-
+4> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+4> .\main.cpp 
+4>main.cpp
+2>Microsoft (R) Incremental Linker Version 9.00.30729.207
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>/MERGE:_PAGE=PAGE 
+2>/MERGE:_TEXT=.text 
+2>/SECTION:INIT,d 
+2>/OPT:REF 
+2>/OPT:ICF 
+2>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+2>/INCREMENTAL:NO 
+2>/release 
+2>/NODEFAULTLIB 
+2>/WX 
+2>/debug 
+2>/debugtype:cv,fixup,pdata 
+2>/version:6.1 
+2>/osversion:6.1 
+2>/functionpadmin:5 
+2>/safeseh 
+2>/nxcompat 
+2>/merge:.rdata=.text 
+2>/pdbcompress 
+2>/STACK:0x40000,0x2000 
+2>/tsaware 
+2>/dynamicbase 
+2>/subsystem:console,6.00 
+2>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+2>/entry:wmainCRTStartup 
+2>c:\users\chase\desktop\insdewindbg\chapter_05\crtcleanup\objfre_win7_x86\i386\main.obj 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+2>c:\WinDDK\7600.16385.1\lib\atl\i386\atls.lib 
+2>c:\WinDDK\7600.16385.1\lib\atl\i386\atlthunk.lib 
+2>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+2>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_06\doublefree *************
+2>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+2>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_06\doublefree
+3> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_05\stlsample\objfre_win7_x86\i386\stlsample.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_05\stlsample\objfre_win7_x86\i386\lnk.rsp
+3>Microsoft (R) Incremental Linker Version 9.00.30729.207
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+3>/MERGE:_PAGE=PAGE 
+3>/MERGE:_TEXT=.text 
+3>/SECTION:INIT,d 
+3>/OPT:REF 
+3>/OPT:ICF 
+3>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+3>/INCREMENTAL:NO 
+3>/release 
+3>/NODEFAULTLIB 
+3>/WX 
+3>/debug 
+3>/debugtype:cv,fixup,pdata 
+3>/version:6.1 
+3>/osversion:6.1 
+3>/functionpadmin:5 
+3>/safeseh 
+3>/nxcompat 
+3>/merge:.rdata=.text 
+3>/pdbcompress 
+3>/STACK:0x40000,0x2000 
+3>/tsaware 
+3>/dynamicbase 
+3>/subsystem:console,6.00 
+3>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+3>/entry:wmainCRTStartup 
+3>c:\users\chase\desktop\insdewindbg\chapter_05\stlsample\objfre_win7_x86\i386\main.obj 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\ntstc_msvcrt.lib 
+3>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+4> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_06\bufferoverrun\objfre_win7_x86\i386\BufferOverrunBug.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_06\bufferoverrun\objfre_win7_x86\i386\lnk.rsp
+2> cl @c:\users\chase\desktop\insdewindbg\chapter_06\doublefree\objfre_win7_x86\i386\cl.rsp
+4>Microsoft (R) Incremental Linker Version 9.00.30729.207
+4>Copyright (C) Microsoft Corporation.  All rights reserved.
+4>/MERGE:_PAGE=PAGE 
+4>/MERGE:_TEXT=.text 
+4>/SECTION:INIT,d 
+4>/OPT:REF 
+4>/OPT:ICF 
+4>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+4>/INCREMENTAL:NO 
+4>/release 
+4>/NODEFAULTLIB 
+4>/WX 
+4>/debug 
+4>/debugtype:cv,fixup,pdata 
+4>/version:6.1 
+4>/osversion:6.1 
+4>/functionpadmin:5 
+4>/safeseh 
+4>/nxcompat 
+4>/merge:.rdata=.text 
+4>/pdbcompress 
+4>/STACK:0x40000,0x2000 
+4>/tsaware 
+4>/dynamicbase 
+4>/subsystem:console,6.00 
+4>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+4>/entry:wmainCRTStartup 
+4>c:\users\chase\desktop\insdewindbg\chapter_06\bufferoverrun\objfre_win7_x86\i386\main.obj 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+4>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+2>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_06\doublefree\objfre_win7_x86\i386/"
+2> /FC
+2> /Ii386
+2> /I.
+2> /Ic:\WinDDK\7600.16385.1\inc\atl71
+2> /I..\..\common\corelib
+2> /Ic:\users\chase\desktop\insdewindbg\chapter_06\doublefree\objfre_win7_x86\i386
+2> /Ic:\WinDDK\7600.16385.1\inc\api
+2> /Ic:\WinDDK\7600.16385.1\inc\api
+2> /Ic:\WinDDK\7600.16385.1\inc\crt
+2> /D_X86_=1
+2> /Di386=1
+2> /DSTD_CALL
+2> /DCONDITION_HANDLING=1
+2> /DNT_UP=1
+2> /DNT_INST=0
+2> /DWIN32=100
+2> /D_NT1X_=100
+2> /DWINNT=1
+2> /D_WIN32_WINNT=0x0600
+2> /DWINVER=0x0600
+2> /D_WIN32_IE=0x0700
+2> /DWIN32_LEAN_AND_MEAN=1
+2> /DDEVL=1
+2> /D__BUILDMACHINE__=WinDDK
+2> /DFPO=0
+2> /DNDEBUG
+2> /D_DLL=1
+2> /D_MT=1
+2> -DUNICODE
+2> -D_UNICODE
+2> /DNTDDI_VERSION=0x06000100
+2> /DPSAPI_VERSION=1
+2> /D_ATL_STATIC_REGISTRY
+2> /c
+2> /Zc:wchar_t-
+2> /Zl
+2> /Zp8
+2> /Gy
+2> /Gm-
+2> /W3
+2> /WX
+2> /Gz
+2> /hotpatch
+2> /EHs-c-
+2> /GR-
+2> /GF
+2> /GS
+2> /Zi
+2> /Oxs
+2> /Oy-
+2> /Zi
+2> /Fdc:\users\chase\desktop\insdewindbg\chapter_06\doublefree\objfre_win7_x86\i386\
+2> /DKMDF_MAJOR_VERSION_STRING=01
+2> /DKMDF_MINOR_VERSION_STRING=009
+2> /wd4603
+2> /wd4627
+2> /typedil-
+2> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+2> .\main.cpp 
+2>main.cpp
+3>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_06\formatstring *************
+3>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+3>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_06\formatstring
+4>Linking for c:\users\chase\desktop\insdewindbg\chapter_07\breakondllload *************
+4>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDLL=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+4>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_07\breakondllload
+3> cl @c:\users\chase\desktop\insdewindbg\chapter_06\formatstring\objfre_win7_x86\i386\cl.rsp
+3>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+3>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_06\formatstring\objfre_win7_x86\i386/"
+3> /FC
+3> /Ii386
+3> /I.
+3> /I..\..\common\corelib
+3> /Ic:\users\chase\desktop\insdewindbg\chapter_06\formatstring\objfre_win7_x86\i386
+3> /Ic:\WinDDK\7600.16385.1\inc\api
+3> /Ic:\WinDDK\7600.16385.1\inc\api
+3> /Ic:\WinDDK\7600.16385.1\inc\crt
+3> /D_X86_=1
+3> /Di386=1
+3> /DSTD_CALL
+3> /DCONDITION_HANDLING=1
+3> /DNT_UP=1
+3> /DNT_INST=0
+3> /DWIN32=100
+3> /D_NT1X_=100
+3> /DWINNT=1
+3> /D_WIN32_WINNT=0x0600
+3> /DWINVER=0x0600
+3> /D_WIN32_IE=0x0700
+3> /DWIN32_LEAN_AND_MEAN=1
+3> /DDEVL=1
+3> /D__BUILDMACHINE__=WinDDK
+3> /DFPO=0
+3> /DNDEBUG
+3> /D_DLL=1
+3> /D_MT=1
+3> -DUNICODE
+3> -D_UNICODE
+3> /DNTDDI_VERSION=0x06000100
+3> /DPSAPI_VERSION=1
+3> /c
+3> /Zc:wchar_t-
+3> /Zl
+3> /Zp8
+3> /Gy
+3> /Gm-
+3> /W3
+3> /WX
+3> /Gz
+3> /hotpatch
+3> /EHs-c-
+3> /GR-
+3> /GF
+3> /GS
+3> /Zi
+3> /Oxs
+3> /Oy-
+3> /Zi
+3> /Fdc:\users\chase\desktop\insdewindbg\chapter_06\formatstring\objfre_win7_x86\i386\
+3> /DKMDF_MAJOR_VERSION_STRING=01
+3> /DKMDF_MINOR_VERSION_STRING=009
+3> /wd4603
+3> /wd4627
+3> /typedil-
+3> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+3> .\main.cpp 
+3>main.cpp
+4> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_07\breakondllload\objfre_win7_x86\i386\DllModule.dll /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_07\breakondllload\objfre_win7_x86\i386\lnk.rsp
+1> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_06\badhandle\objfre_win7_x86\i386\BadHandleBug.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_06\badhandle\objfre_win7_x86\i386\lnk.rsp
+4>Microsoft (R) Incremental Linker Version 9.00.30729.207
+4>Copyright (C) Microsoft Corporation.  All rights reserved.
+4>/MERGE:_PAGE=PAGE 
+4>/MERGE:_TEXT=.text 
+4>/SECTION:INIT,d 
+4>/OPT:REF 
+4>/OPT:ICF 
+4>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+4>/INCREMENTAL:NO 
+4>/release 
+4>/NODEFAULTLIB 
+4>/WX 
+4>/debug 
+4>/debugtype:cv,fixup,pdata 
+4>/version:6.1 
+4>/osversion:6.1 
+4>/functionpadmin:5 
+4>/safeseh 
+4>/nxcompat 
+4>/merge:.rdata=.text 
+4>/pdbcompress 
+4>/dynamicbase 
+4>/STACK:0x40000,0x1000 
+4>/dll 
+4>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,DllModule 
+4>/subsystem:console,6.00 
+4>-entry:_DllMainCRTStartup@12 
+4>c:\users\chase\desktop\insdewindbg\chapter_07\breakondllload\objfre_win7_x86\i386\DllModule.exp 
+4>c:\users\chase\desktop\insdewindbg\chapter_07\breakondllload\objfre_win7_x86\i386\main.obj 
+4>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+1>Microsoft (R) Incremental Linker Version 9.00.30729.207
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/MERGE:_PAGE=PAGE 
+1>/MERGE:_TEXT=.text 
+1>/SECTION:INIT,d 
+1>/OPT:REF 
+1>/OPT:ICF 
+1>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+1>/INCREMENTAL:NO 
+1>/release 
+1>/NODEFAULTLIB 
+1>/WX 
+1>/debug 
+1>/debugtype:cv,fixup,pdata 
+1>/version:6.1 
+1>/osversion:6.1 
+1>/functionpadmin:5 
+1>/safeseh 
+1>/nxcompat 
+1>/merge:.rdata=.text 
+1>/pdbcompress 
+1>/STACK:0x40000,0x2000 
+1>/tsaware 
+1>/dynamicbase 
+1>/subsystem:console,6.00 
+1>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+1>/entry:wmainCRTStartup 
+1>c:\users\chase\desktop\insdewindbg\chapter_06\badhandle\objfre_win7_x86\i386\main.obj 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+1>c:\WinDDK\7600.16385.1\lib\atl\i386\atls.lib 
+1>c:\WinDDK\7600.16385.1\lib\atl\i386\atlthunk.lib 
+1>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+4>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_07\breakonfailure *************
+4>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+4>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_07\breakonfailure
+1>Linking for c:\users\chase\desktop\insdewindbg\chapter_07\msicustomaction\customactiondll *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDLL=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_07\msicustomaction\customactiondll
+4> cl @c:\users\chase\desktop\insdewindbg\chapter_07\breakonfailure\objfre_win7_x86\i386\cl.rsp
+3> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_06\formatstring\objfre_win7_x86\i386\FormatStringBug.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_06\formatstring\objfre_win7_x86\i386\lnk.rsp
+4>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+4>Copyright (C) Microsoft Corporation.  All rights reserved.
+4>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_07\breakonfailure\objfre_win7_x86\i386/"
+4> /FC
+4> /Ii386
+4> /I.
+4> /I..\..\common\corelib
+4> /Ic:\users\chase\desktop\insdewindbg\chapter_07\breakonfailure\objfre_win7_x86\i386
+4> /Ic:\WinDDK\7600.16385.1\inc\api
+4> /Ic:\WinDDK\7600.16385.1\inc\api
+4> /Ic:\WinDDK\7600.16385.1\inc\crt
+4> /D_X86_=1
+4> /Di386=1
+4> /DSTD_CALL
+4> /DCONDITION_HANDLING=1
+4> /DNT_UP=1
+4> /DNT_INST=0
+4> /DWIN32=100
+4> /D_NT1X_=100
+4> /DWINNT=1
+4> /D_WIN32_WINNT=0x0600
+4> /DWINVER=0x0600
+4> /D_WIN32_IE=0x0700
+4> /DWIN32_LEAN_AND_MEAN=1
+4> /DDEVL=1
+4> /D__BUILDMACHINE__=WinDDK
+4> /DFPO=0
+4> /DNDEBUG
+4> /D_DLL=1
+4> /D_MT=1
+4> -DUNICODE
+4> -D_UNICODE
+1> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_07\msicustomaction\customactiondll\objfre_win7_x86\i386\CustomActionDll.dll /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_07\msicustomaction\customactiondll\objfre_win7_x86\i386\lnk.rsp
+4> /DNTDDI_VERSION=0x06000100
+4> /DPSAPI_VERSION=1
+4> /c
+4> /Zc:wchar_t-
+4> /Zl
+4> /Zp8
+4> /Gy
+4> /Gm-
+4> /W3
+4> /WX
+4> /Gz
+4> /hotpatch
+4> /EHs-c-
+4> /GR-
+4> /GF
+4> /GS
+4> /Zi
+4> /Oxs
+4> /Oy-
+4> /Zi
+4> /Fdc:\users\chase\desktop\insdewindbg\chapter_07\breakonfailure\objfre_win7_x86\i386\
+4> /DKMDF_MAJOR_VERSION_STRING=01
+4> /DKMDF_MINOR_VERSION_STRING=009
+4> /wd4603
+4> /wd4627
+4> /typedil-
+4> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+4> .\main.cpp 
+3>Microsoft (R) Incremental Linker Version 9.00.30729.207
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+3>/MERGE:_PAGE=PAGE 
+3>/MERGE:_TEXT=.text 
+3>/SECTION:INIT,d 
+3>/OPT:REF 
+3>/OPT:ICF 
+3>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+3>/INCREMENTAL:NO 
+3>/release 
+3>/NODEFAULTLIB 
+3>/WX 
+3>/debug 
+3>/debugtype:cv,fixup,pdata 
+3>/version:6.1 
+3>/osversion:6.1 
+3>/functionpadmin:5 
+3>/safeseh 
+3>/nxcompat 
+3>/merge:.rdata=.text 
+3>/pdbcompress 
+3>/STACK:0x40000,0x2000 
+3>/tsaware 
+3>/dynamicbase 
+3>/subsystem:console,6.00 
+3>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+3>/entry:wmainCRTStartup 
+3>c:\users\chase\desktop\insdewindbg\chapter_06\formatstring\objfre_win7_x86\i386\main.obj 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+3>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+4>main.cpp
+1>Microsoft (R) Incremental Linker Version 9.00.30729.207
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/MERGE:_PAGE=PAGE 
+1>/MERGE:_TEXT=.text 
+1>/SECTION:INIT,d 
+1>/OPT:REF 
+1>/OPT:ICF 
+1>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+1>/INCREMENTAL:NO 
+1>/release 
+1>/NODEFAULTLIB 
+1>/WX 
+1>/debug 
+1>/debugtype:cv,fixup,pdata 
+1>/version:6.1 
+1>/osversion:6.1 
+1>/functionpadmin:5 
+1>/safeseh 
+1>/nxcompat 
+1>/merge:.rdata=.text 
+1>/pdbcompress 
+1>/dynamicbase 
+1>/STACK:0x40000,0x1000 
+1>/dll 
+1>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,CustomActionDll 
+1>/subsystem:console,6.00 
+1>-entry:_DllMainCRTStartup@12 
+1>c:\users\chase\desktop\insdewindbg\chapter_07\msicustomaction\customactiondll\objfre_win7_x86\i386\CustomActionDll.exp 
+1>c:\users\chase\desktop\insdewindbg\chapter_07\msicustomaction\customactiondll\objfre_win7_x86\i386\main.obj 
+1>c:\WinDDK\7600.16385.1\lib\atl\i386\atls.lib 
+1>c:\WinDDK\7600.16385.1\lib\atl\i386\atlthunk.lib 
+1>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+2> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_06\doublefree\objfre_win7_x86\i386\DoubleFreeBug.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_06\doublefree\objfre_win7_x86\i386\lnk.rsp
+3>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_08\illegalwriteav *************
+3>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+3>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_08\illegalwriteav
+1>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_08\heapcorruption *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_08\heapcorruption
+2>Microsoft (R) Incremental Linker Version 9.00.30729.207
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>/MERGE:_PAGE=PAGE 
+2>/MERGE:_TEXT=.text 
+2>/SECTION:INIT,d 
+2>/OPT:REF 
+2>/OPT:ICF 
+2>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+2>/INCREMENTAL:NO 
+2>/release 
+2>/NODEFAULTLIB 
+2>/WX 
+2>/debug 
+2>/debugtype:cv,fixup,pdata 
+2>/version:6.1 
+2>/osversion:6.1 
+2>/functionpadmin:5 
+2>/safeseh 
+2>/nxcompat 
+2>/merge:.rdata=.text 
+2>/pdbcompress 
+2>/STACK:0x40000,0x2000 
+2>/tsaware 
+2>/dynamicbase 
+2>/subsystem:console,6.00 
+2>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+2>/entry:wmainCRTStartup 
+2>c:\users\chase\desktop\insdewindbg\chapter_06\doublefree\objfre_win7_x86\i386\main.obj 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+2>c:\WinDDK\7600.16385.1\lib\atl\i386\atls.lib 
+2>c:\WinDDK\7600.16385.1\lib\atl\i386\atlthunk.lib 
+2>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+2>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_08\stackcorruption\badcallstack *************
+2>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+2>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_08\stackcorruption\badcallstack
+3> cl @c:\users\chase\desktop\insdewindbg\chapter_08\illegalwriteav\objfre_win7_x86\i386\cl.rsp
+1> cl @c:\users\chase\desktop\insdewindbg\chapter_08\heapcorruption\objfre_win7_x86\i386\cl.rsp
+4> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_07\breakonfailure\objfre_win7_x86\i386\breakonfailure.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_07\breakonfailure\objfre_win7_x86\i386\lnk.rsp
+3>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+3>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_08\illegalwriteav\objfre_win7_x86\i386/"
+3> /FC
+3> /Ii386
+3> /I.
+3> /Ic:\users\chase\desktop\insdewindbg\chapter_08\illegalwriteav\objfre_win7_x86\i386
+3> /Ic:\WinDDK\7600.16385.1\inc\api
+3> /Ic:\WinDDK\7600.16385.1\inc\api
+3> /Ic:\WinDDK\7600.16385.1\inc\crt
+3> /D_X86_=1
+3> /Di386=1
+3> /DSTD_CALL
+3> /DCONDITION_HANDLING=1
+3> /DNT_UP=1
+3> /DNT_INST=0
+3> /DWIN32=100
+3> /D_NT1X_=100
+3> /DWINNT=1
+3> /D_WIN32_WINNT=0x0600
+3> /DWINVER=0x0600
+3> /D_WIN32_IE=0x0700
+3> /DWIN32_LEAN_AND_MEAN=1
+3> /DDEVL=1
+3> /D__BUILDMACHINE__=WinDDK
+3> /DFPO=0
+3> /DNDEBUG
+3> /D_DLL=1
+3> /D_MT=1
+3> -DUNICODE
+3> -D_UNICODE
+3> /DNTDDI_VERSION=0x06000100
+3> /DPSAPI_VERSION=1
+3> /c
+3> /Zc:wchar_t-
+3> /Zl
+3> /Zp8
+3> /Gy
+3> /Gm-
+3> /W3
+3> /WX
+3> /Gz
+3> /hotpatch
+3> /EHs-c-
+3> /GR-
+3> /GF
+3> /GS
+3> /Zi
+3> /Oxs
+3> /Oy-
+3> /Zi
+3> /Fdc:\users\chase\desktop\insdewindbg\chapter_08\illegalwriteav\objfre_win7_x86\i386\
+3> /DKMDF_MAJOR_VERSION_STRING=01
+3> /DKMDF_MINOR_VERSION_STRING=009
+3> /wd4603
+3> /wd4627
+3> /typedil-
+3> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+4>Microsoft (R) Incremental Linker Version 9.00.30729.207
+4>Copyright (C) Microsoft Corporation.  All rights reserved.
+4>/MERGE:_PAGE=PAGE 
+4>/MERGE:_TEXT=.text 
+4>/SECTION:INIT,d 
+4>/OPT:REF 
+4>/OPT:ICF 
+4>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+4>/INCREMENTAL:NO 
+4>/release 
+4>/NODEFAULTLIB 
+4>/WX 
+4>/debug 
+4>/debugtype:cv,fixup,pdata 
+4>/version:6.1 
+4>/osversion:6.1 
+4>/functionpadmin:5 
+4>/safeseh 
+4>/nxcompat 
+4>/merge:.rdata=.text 
+4>/pdbcompress 
+4>/STACK:0x40000,0x2000 
+4>/tsaware 
+4>/dynamicbase 
+4>/subsystem:console,6.00 
+4>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+4>/entry:wmainCRTStartup 
+4>c:\users\chase\desktop\insdewindbg\chapter_07\breakonfailure\objfre_win7_x86\i386\main.obj 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+4>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+3> .\main.cpp 
+1>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_08\heapcorruption\objfre_win7_x86\i386/"
+1> /FC
+1> /Ii386
+3>main.cpp
+1> /I.
+1> /Ic:\WinDDK\7600.16385.1\inc\atl71
+1> /I..\..\common\corelib
+1> /Ic:\users\chase\desktop\insdewindbg\chapter_08\heapcorruption\objfre_win7_x86\i386
+1> /Ic:\WinDDK\7600.16385.1\inc\api
+1> /Ic:\WinDDK\7600.16385.1\inc\api
+1> /Ic:\WinDDK\7600.16385.1\inc\crt
+1> /D_X86_=1
+1> /Di386=1
+1> /DSTD_CALL
+1> /DCONDITION_HANDLING=1
+1> /DNT_UP=1
+1> /DNT_INST=0
+1> /DWIN32=100
+1> /D_NT1X_=100
+1> /DWINNT=1
+1> /D_WIN32_WINNT=0x0600
+1> /DWINVER=0x0600
+1> /D_WIN32_IE=0x0700
+1> /DWIN32_LEAN_AND_MEAN=1
+1> /DDEVL=1
+1> /D__BUILDMACHINE__=WinDDK
+1> /DFPO=0
+1> /DNDEBUG
+1> /D_DLL=1
+1> /D_MT=1
+1> -DUNICODE
+1> -D_UNICODE
+1> /DNTDDI_VERSION=0x06000100
+1> /DPSAPI_VERSION=1
+1> /D_ATL_STATIC_REGISTRY
+1> /c
+1> /Zc:wchar_t-
+1> /Zl
+1> /Zp8
+1> /Gy
+1> /Gm-
+1> /W3
+1> /WX
+1> /Gz
+1> /hotpatch
+1> /EHs-c-
+1> /GR-
+1> /GF
+1> /GS
+1> /Zi
+1> /Oxs
+1> /Oy-
+1> /Zi
+1> /Fdc:\users\chase\desktop\insdewindbg\chapter_08\heapcorruption\objfre_win7_x86\i386\
+1> /DKMDF_MAJOR_VERSION_STRING=01
+1> /DKMDF_MINOR_VERSION_STRING=009
+1> /wd4603
+1> /wd4627
+1> /typedil-
+1> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+1> .\main.cpp 
+1>main.cpp
+4>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_08\stackcorruption\bufferoverflow *************
+4>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+4>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_08\stackcorruption\bufferoverflow
+2> cl @c:\users\chase\desktop\insdewindbg\chapter_08\stackcorruption\badcallstack\objfre_win7_x86\i386\cl.rsp
+2>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_08\stackcorruption\badcallstack\objfre_win7_x86\i386/"
+2> /FC
+2> /Ii386
+2> /I.
+2> /Ic:\WinDDK\7600.16385.1\inc\atl71
+2> /I..\..\..\common\corelib
+2> /Ic:\users\chase\desktop\insdewindbg\chapter_08\stackcorruption\badcallstack\objfre_win7_x86\i386
+2> /Ic:\WinDDK\7600.16385.1\inc\api
+2> /Ic:\WinDDK\7600.16385.1\inc\api
+2> /Ic:\WinDDK\7600.16385.1\inc\crt
+2> /D_X86_=1
+2> /Di386=1
+2> /DSTD_CALL
+2> /DCONDITION_HANDLING=1
+2> /DNT_UP=1
+2> /DNT_INST=0
+2> /DWIN32=100
+2> /D_NT1X_=100
+2> /DWINNT=1
+2> /D_WIN32_WINNT=0x0600
+2> /DWINVER=0x0600
+2> /D_WIN32_IE=0x0700
+2> /DWIN32_LEAN_AND_MEAN=1
+2> /DDEVL=1
+2> /D__BUILDMACHINE__=WinDDK
+2> /DFPO=0
+2> /DNDEBUG
+2> /D_DLL=1
+2> /D_MT=1
+2> -DUNICODE
+2> -D_UNICODE
+2> /DNTDDI_VERSION=0x06000100
+2> /DPSAPI_VERSION=1
+2> /D_ATL_STATIC_REGISTRY
+2> /c
+2> /Zc:wchar_t-
+2> /Zl
+2> /Zp8
+2> /Gy
+2> /Gm-
+2> /W3
+2> /WX
+2> /Gz
+2> /hotpatch
+2> /EHs-c-
+2> /GR-
+2> /GF
+2> /GS
+2> /Zi
+2> /Oxs
+2> /Oy-
+2> /Zi
+2> /Fdc:\users\chase\desktop\insdewindbg\chapter_08\stackcorruption\badcallstack\objfre_win7_x86\i386\
+2> /DKMDF_MAJOR_VERSION_STRING=01
+2> /DKMDF_MINOR_VERSION_STRING=009
+2> /wd4603
+2> /wd4627
+2> /typedil-
+2> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+2> .\main.cpp 
+2>main.cpp
+3> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_08\illegalwriteav\objfre_win7_x86\i386\IllegalWriteAv.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_08\illegalwriteav\objfre_win7_x86\i386\lnk.rsp
+4> cl @c:\users\chase\desktop\insdewindbg\chapter_08\stackcorruption\bufferoverflow\objfre_win7_x86\i386\cl.rsp
+3>Microsoft (R) Incremental Linker Version 9.00.30729.207
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+3>/WX 
+3>/MAP:c:\users\chase\desktop\insdewindbg\chapter_08\illegalwriteav\objfre_win7_x86\i386\IllegalWriteAv.map 
+3>/MERGE:_PAGE=PAGE 
+3>/MERGE:_TEXT=.text 
+3>/SECTION:INIT,d 
+3>/OPT:REF 
+3>/OPT:ICF 
+3>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+3>/INCREMENTAL:NO 
+3>/release 
+3>/NODEFAULTLIB 
+3>/WX 
+3>/debug 
+3>/debugtype:cv,fixup,pdata 
+3>/version:6.1 
+3>/osversion:6.1 
+3>/functionpadmin:5 
+3>/safeseh 
+3>/nxcompat 
+3>/merge:.rdata=.text 
+3>/pdbcompress 
+3>/STACK:0x40000,0x2000 
+3>/tsaware 
+3>/dynamicbase 
+3>/subsystem:console,6.00 
+3>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+3>/entry:wmainCRTStartup 
+3>c:\users\chase\desktop\insdewindbg\chapter_08\illegalwriteav\objfre_win7_x86\i386\main.obj 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+3>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+4>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+4>Copyright (C) Microsoft Corporation.  All rights reserved.
+4>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_08\stackcorruption\bufferoverflow\objfre_win7_x86\i386/"
+4> /FC
+4> /Ii386
+4> /I.
+4> /Ic:\WinDDK\7600.16385.1\inc\atl71
+4> /I..\..\..\common\corelib
+4> /Ic:\users\chase\desktop\insdewindbg\chapter_08\stackcorruption\bufferoverflow\objfre_win7_x86\i386
+4> /Ic:\WinDDK\7600.16385.1\inc\api
+4> /Ic:\WinDDK\7600.16385.1\inc\api
+4> /Ic:\WinDDK\7600.16385.1\inc\crt
+4> /D_X86_=1
+4> /Di386=1
+4> /DSTD_CALL
+4> /DCONDITION_HANDLING=1
+4> /DNT_UP=1
+4> /DNT_INST=0
+4> /DWIN32=100
+4> /D_NT1X_=100
+4> /DWINNT=1
+4> /D_WIN32_WINNT=0x0600
+4> /DWINVER=0x0600
+4> /D_WIN32_IE=0x0700
+4> /DWIN32_LEAN_AND_MEAN=1
+4> /DDEVL=1
+4> /D__BUILDMACHINE__=WinDDK
+4> /DFPO=0
+4> /DNDEBUG
+4> /D_DLL=1
+4> /D_MT=1
+4> -DUNICODE
+4> -D_UNICODE
+4> /DNTDDI_VERSION=0x06000100
+4> /DPSAPI_VERSION=1
+4> /D_ATL_STATIC_REGISTRY
+4> /c
+4> /Zc:wchar_t-
+4> /Zl
+4> /Zp8
+4> /Gy
+4> /Gm-
+4> /W3
+4> /WX
+4> /Gz
+4> /hotpatch
+4> /EHs-c-
+4> /GR-
+4> /GF
+4> /GS
+4> /Zi
+4> /Oxs
+4> /Oy-
+4> /Zi
+4> /Fdc:\users\chase\desktop\insdewindbg\chapter_08\stackcorruption\bufferoverflow\objfre_win7_x86\i386\
+4> /DKMDF_MAJOR_VERSION_STRING=01
+4> /DKMDF_MINOR_VERSION_STRING=009
+4> /wd4603
+4> /wd4627
+4> /typedil-
+4> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+4> .\main.cpp 
+4>main.cpp
+3>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_08\stackoverflow *************
+3>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+3>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_08\stackoverflow
+3> cl @c:\users\chase\desktop\insdewindbg\chapter_08\stackoverflow\objfre_win7_x86\i386\cl.rsp
+2> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_08\stackcorruption\badcallstack\objfre_win7_x86\i386\BadCallStack.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_08\stackcorruption\badcallstack\objfre_win7_x86\i386\lnk.rsp
+3>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+3>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_08\stackoverflow\objfre_win7_x86\i386/"
+3> /FC
+3> /Ii386
+3> /I.
+3> /Ic:\WinDDK\7600.16385.1\inc\atl71
+3> /I..\..\common\corelib
+3> /Ic:\users\chase\desktop\insdewindbg\chapter_08\stackoverflow\objfre_win7_x86\i386
+3> /Ic:\WinDDK\7600.16385.1\inc\api
+3> /Ic:\WinDDK\7600.16385.1\inc\api
+3> /Ic:\WinDDK\7600.16385.1\inc\crt
+3> /D_X86_=1
+3> /Di386=1
+3> /DSTD_CALL
+3> /DCONDITION_HANDLING=1
+3> /DNT_UP=1
+3> /DNT_INST=0
+3> /DWIN32=100
+3> /D_NT1X_=100
+3> /DWINNT=1
+3> /D_WIN32_WINNT=0x0600
+3> /DWINVER=0x0600
+3> /D_WIN32_IE=0x0700
+3> /DWIN32_LEAN_AND_MEAN=1
+3> /DDEVL=1
+3> /D__BUILDMACHINE__=WinDDK
+3> /DFPO=0
+3> /DNDEBUG
+3> /D_DLL=1
+3> /D_MT=1
+3> -DUNICODE
+3> -D_UNICODE
+3> /DNTDDI_VERSION=0x06000100
+3> /DPSAPI_VERSION=1
+3> /D_ATL_STATIC_REGISTRY
+3> /c
+3> /Zc:wchar_t-
+3> /Zl
+3> /Zp8
+3> /Gy
+3> /Gm-
+3> /W3
+3> /WX
+3> /Gz
+3> /hotpatch
+3> /EHs-c-
+3> /GR-
+3> /GF
+3> /GS
+3> /Zi
+3> /Oxs
+3> /Oy-
+3> /Zi
+3> /Fdc:\users\chase\desktop\insdewindbg\chapter_08\stackoverflow\objfre_win7_x86\i386\
+3> /DKMDF_MAJOR_VERSION_STRING=01
+3> /DKMDF_MINOR_VERSION_STRING=009
+3> /wd4603
+3> /wd4627
+3> /typedil-
+3> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+3> .\main.cpp 
+2>Microsoft (R) Incremental Linker Version 9.00.30729.207
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>/MERGE:_PAGE=PAGE 
+2>/MERGE:_TEXT=.text 
+2>/SECTION:INIT,d 
+2>/OPT:REF 
+2>/OPT:ICF 
+2>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+2>/INCREMENTAL:NO 
+2>/release 
+2>/NODEFAULTLIB 
+2>/WX 
+2>/debug 
+2>/debugtype:cv,fixup,pdata 
+2>/version:6.1 
+2>/osversion:6.1 
+2>/functionpadmin:5 
+2>/safeseh 
+2>/nxcompat 
+2>/merge:.rdata=.text 
+2>/pdbcompress 
+2>/STACK:0x40000,0x2000 
+2>/tsaware 
+2>/dynamicbase 
+2>/subsystem:console,6.00 
+2>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+2>/entry:wmainCRTStartup 
+2>c:\users\chase\desktop\insdewindbg\chapter_08\stackcorruption\badcallstack\objfre_win7_x86\i386\main.obj 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+2>c:\WinDDK\7600.16385.1\lib\atl\i386\atls.lib 
+2>c:\WinDDK\7600.16385.1\lib\atl\i386\atlthunk.lib 
+2>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+3>main.cpp
+1> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_08\heapcorruption\objfre_win7_x86\i386\OffByOne.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_08\heapcorruption\objfre_win7_x86\i386\lnk.rsp
+1>Microsoft (R) Incremental Linker Version 9.00.30729.207
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/MERGE:_PAGE=PAGE 
+1>/MERGE:_TEXT=.text 
+1>/SECTION:INIT,d 
+1>/OPT:REF 
+1>/OPT:ICF 
+1>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+1>/INCREMENTAL:NO 
+1>/release 
+1>/NODEFAULTLIB 
+1>/WX 
+1>/debug 
+1>/debugtype:cv,fixup,pdata 
+1>/version:6.1 
+1>/osversion:6.1 
+1>/functionpadmin:5 
+1>/safeseh 
+1>/nxcompat 
+1>/merge:.rdata=.text 
+1>/pdbcompress 
+1>/STACK:0x40000,0x2000 
+1>/tsaware 
+1>/dynamicbase 
+1>/subsystem:console,6.00 
+1>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+1>/entry:wmainCRTStartup 
+1>c:\users\chase\desktop\insdewindbg\chapter_08\heapcorruption\objfre_win7_x86\i386\main.obj 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+1>c:\WinDDK\7600.16385.1\lib\atl\i386\atls.lib 
+1>c:\WinDDK\7600.16385.1\lib\atl\i386\atlthunk.lib 
+1>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+2>Linking for c:\users\chase\desktop\insdewindbg\chapter_08\heapleak\dllheapleak *************
+2>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDLL=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+2>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_08\heapleak\dllheapleak
+4> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_08\stackcorruption\bufferoverflow\objfre_win7_x86\i386\StackCorruption.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_08\stackcorruption\bufferoverflow\objfre_win7_x86\i386\lnk.rsp
+4>Microsoft (R) Incremental Linker Version 9.00.30729.207
+4>Copyright (C) Microsoft Corporation.  All rights reserved.
+4>/MERGE:_PAGE=PAGE 
+4>/MERGE:_TEXT=.text 
+4>/SECTION:INIT,d 
+4>/OPT:REF 
+4>/OPT:ICF 
+4>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+4>/INCREMENTAL:NO 
+4>/release 
+4>/NODEFAULTLIB 
+4>/WX 
+4>/debug 
+4>/debugtype:cv,fixup,pdata 
+4>/version:6.1 
+4>/osversion:6.1 
+4>/functionpadmin:5 
+4>/safeseh 
+4>/nxcompat 
+4>/merge:.rdata=.text 
+4>/pdbcompress 
+4>/STACK:0x40000,0x2000 
+4>/tsaware 
+4>/dynamicbase 
+4>/subsystem:console,6.00 
+4>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+4>/entry:wmainCRTStartup 
+4>c:\users\chase\desktop\insdewindbg\chapter_08\stackcorruption\bufferoverflow\objfre_win7_x86\i386\main.obj 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+4>c:\WinDDK\7600.16385.1\lib\atl\i386\atls.lib 
+4>c:\WinDDK\7600.16385.1\lib\atl\i386\atlthunk.lib 
+4>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+1>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_08\heapleak\exeheapleak *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_08\heapleak\exeheapleak
+2> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_08\heapleak\dllheapleak\objfre_win7_x86\i386\HeapLeak.dll /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_08\heapleak\dllheapleak\objfre_win7_x86\i386\lnk.rsp
+4>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_08\refcountdb *************
+4>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+4>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_08\refcountdb
+2>Microsoft (R) Incremental Linker Version 9.00.30729.207
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>/MERGE:_PAGE=PAGE 
+2>/MERGE:_TEXT=.text 
+2>/SECTION:INIT,d 
+2>/OPT:REF 
+2>/OPT:ICF 
+2>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+2>/INCREMENTAL:NO 
+2>/release 
+2>/NODEFAULTLIB 
+2>/WX 
+2>/debug 
+2>/debugtype:cv,fixup,pdata 
+2>/version:6.1 
+2>/osversion:6.1 
+2>/functionpadmin:5 
+2>/safeseh 
+2>/nxcompat 
+2>/merge:.rdata=.text 
+2>/pdbcompress 
+2>/dynamicbase 
+2>/STACK:0x40000,0x1000 
+2>/dll 
+2>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,HeapLeak 
+2>/subsystem:console,6.00 
+2>-entry:_DllMainCRTStartup@12 
+2>c:\users\chase\desktop\insdewindbg\chapter_08\heapleak\dllheapleak\objfre_win7_x86\i386\HeapLeak.exp 
+2>c:\users\chase\desktop\insdewindbg\chapter_08\heapleak\dllheapleak\objfre_win7_x86\i386\heapleak.obj 
+2>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+1> cl @c:\users\chase\desktop\insdewindbg\chapter_08\heapleak\exeheapleak\objfre_win7_x86\i386\cl.rsp
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_08\heapleak\exeheapleak\objfre_win7_x86\i386/"
+1> /FC
+1> /Ii386
+1> /I.
+1> /I..\..\..\common\corelib
+1> /Ic:\users\chase\desktop\insdewindbg\chapter_08\heapleak\exeheapleak\objfre_win7_x86\i386
+2>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_08\driverleak\sys *************
+2>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+2>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_08\driverleak\sys
+1> /Ic:\WinDDK\7600.16385.1\inc\api
+3> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_08\stackoverflow\objfre_win7_x86\i386\StackOverflow.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_08\stackoverflow\objfre_win7_x86\i386\lnk.rsp
+1> /Ic:\WinDDK\7600.16385.1\inc\api
+1> /Ic:\WinDDK\7600.16385.1\inc\crt
+1> /D_X86_=1
+1> /Di386=1
+1> /DSTD_CALL
+3>Microsoft (R) Incremental Linker Version 9.00.30729.207
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+3>/MERGE:_PAGE=PAGE 
+3>/MERGE:_TEXT=.text 
+3>/SECTION:INIT,d 
+3>/OPT:REF 
+3>/OPT:ICF 
+3>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+3>/INCREMENTAL:NO 
+3>/release 
+3>/NODEFAULTLIB 
+3>/WX 
+3>/debug 
+3>/debugtype:cv,fixup,pdata 
+3>/version:6.1 
+3>/osversion:6.1 
+3>/functionpadmin:5 
+3>/safeseh 
+3>/nxcompat 
+3>/merge:.rdata=.text 
+3>/pdbcompress 
+3>/STACK:0x40000,0x2000 
+3>/tsaware 
+3>/dynamicbase 
+3>/subsystem:console,6.00 
+3>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+3>/entry:wmainCRTStartup 
+3>c:\users\chase\desktop\insdewindbg\chapter_08\stackoverflow\objfre_win7_x86\i386\main.obj 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+3>c:\WinDDK\7600.16385.1\lib\atl\i386\atls.lib 
+3>c:\WinDDK\7600.16385.1\lib\atl\i386\atlthunk.lib 
+3>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+1> /DCONDITION_HANDLING=1
+1> /DNT_UP=1
+1> /DNT_INST=0
+4> cl @c:\users\chase\desktop\insdewindbg\chapter_08\refcountdb\objfre_win7_x86\i386\cl.rsp
+1> /DWIN32=100
+1> /D_NT1X_=100
+1> /DWINNT=1
+1> /D_WIN32_WINNT=0x0600
+4>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+4>Copyright (C) Microsoft Corporation.  All rights reserved.
+1> /DWINVER=0x0600
+1> /D_WIN32_IE=0x0700
+4>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_08\refcountdb\objfre_win7_x86\i386/"
+4> /FC
+4> /Ii386
+1> /DWIN32_LEAN_AND_MEAN=1
+4> /I.
+4> /Ic:\WinDDK\7600.16385.1\inc\atl71
+1> /DDEVL=1
+4> /I..\..\common\corelib
+1> /D__BUILDMACHINE__=WinDDK
+4> /Ic:\users\chase\desktop\insdewindbg\chapter_08\refcountdb\objfre_win7_x86\i386
+1> /DFPO=0
+4> /Ic:\WinDDK\7600.16385.1\inc\api
+4> /Ic:\WinDDK\7600.16385.1\inc\api
+1> /DNDEBUG
+4> /Ic:\WinDDK\7600.16385.1\inc\crt
+1> /D_DLL=1
+4> /D_X86_=1
+1> /D_MT=1
+4> /Di386=1
+3>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_08\driverleak\test *************
+3>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+3>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_08\driverleak\test
+4> /DSTD_CALL
+1> -DUNICODE
+1> -D_UNICODE
+4> /DCONDITION_HANDLING=1
+4> /DNT_UP=1
+1> /DNTDDI_VERSION=0x06000100
+1> /DPSAPI_VERSION=1
+4> /DNT_INST=0
+4> /DWIN32=100
+4> /D_NT1X_=100
+4> /DWINNT=1
+4> /D_WIN32_WINNT=0x0600
+1> /c
+4> /DWINVER=0x0600
+1> /Zc:wchar_t-
+4> /D_WIN32_IE=0x0700
+1> /Zl
+1> /Zp8
+1> /Gy
+1> /Gm-
+4> /DWIN32_LEAN_AND_MEAN=1
+1> /W3
+4> /DDEVL=1
+1> /WX
+4> /D__BUILDMACHINE__=WinDDK
+1> /Gz
+4> /DFPO=0
+4> /DNDEBUG
+1> /hotpatch
+4> /D_DLL=1
+4> /D_MT=1
+1> /EHs-c-
+1> /GR-
+4> -DUNICODE
+1> /GF
+4> -D_UNICODE
+1> /GS
+4> /DNTDDI_VERSION=0x06000100
+1> /Zi
+4> /DPSAPI_VERSION=1
+1> /Oxs
+1> /Oy-
+4> /D_ATL_STATIC_REGISTRY
+1> /Zi
+1> /Fdc:\users\chase\desktop\insdewindbg\chapter_08\heapleak\exeheapleak\objfre_win7_x86\i386\
+4> /c
+4> /Zc:wchar_t-
+1> /DKMDF_MAJOR_VERSION_STRING=01
+4> /Zl
+1> /DKMDF_MINOR_VERSION_STRING=009
+4> /Zp8
+1> /wd4603
+4> /Gy
+1> /wd4627
+4> /Gm-
+1> /typedil-
+1> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+4> /W3
+4> /WX
+4> /Gz
+4> /hotpatch
+1> .\main.cpp 
+4> /EHs-c-
+1>main.cpp
+4> /GR-
+2> cl @c:\users\chase\desktop\insdewindbg\chapter_08\driverleak\sys\objfre_win7_x86\i386\cl.rsp
+4> /GF
+4> /GS
+2>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+4> /Zi
+2>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_08\driverleak\sys\objfre_win7_x86\i386/"
+2> /FC
+2> /Ii386
+2> /I.
+2> /I..\inc
+2> /Ic:\users\chase\desktop\insdewindbg\chapter_08\driverleak\sys\objfre_win7_x86\i386
+2> /Ic:\WinDDK\7600.16385.1\inc\api
+2> /Ic:\WinDDK\7600.16385.1\inc\api
+4> /Oxs
+2> /Ic:\WinDDK\7600.16385.1\inc\ddk
+2> /Ic:\WinDDK\7600.16385.1\inc\ddk
+2> /Ic:\WinDDK\7600.16385.1\inc\crt
+2> /D_X86_=1
+2> /Di386=1
+4> /Oy-
+2> /DSTD_CALL
+2> /DCONDITION_HANDLING=1
+4> /Zi
+2> /DNT_UP=1
+4> /Fdc:\users\chase\desktop\insdewindbg\chapter_08\refcountdb\objfre_win7_x86\i386\
+2> /DNT_INST=0
+2> /DWIN32=100
+2> /D_NT1X_=100
+2> /DWINNT=1
+2> /D_WIN32_WINNT=0x0600
+2> /DWINVER=0x0600
+2> /D_WIN32_IE=0x0700
+4> /DKMDF_MAJOR_VERSION_STRING=01
+4> /DKMDF_MINOR_VERSION_STRING=009
+4> /wd4603
+4> /wd4627
+4> /typedil-
+4> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+2> /DWIN32_LEAN_AND_MEAN=1
+2> /DDEVL=1
+2> /D__BUILDMACHINE__=WinDDK
+4> .\main.cpp 
+2> /DFPO=0
+4>main.cpp
+2> /DNDEBUG
+3> cl @c:\users\chase\desktop\insdewindbg\chapter_08\driverleak\test\objfre_win7_x86\i386\cl.rsp
+2> /D_DLL=1
+2> /DNDEBUG
+3>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+3>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_08\driverleak\test\objfre_win7_x86\i386/"
+3> /FC
+3> /Ii386
+3> /I.
+3> /Ic:\WinDDK\7600.16385.1\inc\atl71
+3> /I..\..\..\common\corelib
+3> /I..\inc
+3> /Ic:\users\chase\desktop\insdewindbg\chapter_08\driverleak\test\objfre_win7_x86\i386
+3> /Ic:\WinDDK\7600.16385.1\inc\api
+3> /Ic:\WinDDK\7600.16385.1\inc\api
+3> /Ic:\WinDDK\7600.16385.1\inc\crt
+3> /D_X86_=1
+3> /Di386=1
+3> /DSTD_CALL
+3> /DCONDITION_HANDLING=1
+3> /DNT_UP=1
+3> /DNT_INST=0
+3> /DWIN32=100
+3> /D_NT1X_=100
+3> /DWINNT=1
+2> -DDRV_FORCE_KD_PRINT
+3> /D_WIN32_WINNT=0x0600
+3> /DWINVER=0x0600
+3> /D_WIN32_IE=0x0700
+3> /DWIN32_LEAN_AND_MEAN=1
+3> /DDEVL=1
+3> /D__BUILDMACHINE__=WinDDK
+3> /DFPO=0
+3> /DNDEBUG
+2> /DNTDDI_VERSION=0x06000100
+3> /D_DLL=1
+3> /D_MT=1
+3> -DUNICODE
+3> -D_UNICODE
+2> /c
+2> /Zc:wchar_t-
+2> /Zl
+3> /DNTDDI_VERSION=0x06000100
+3> /DPSAPI_VERSION=1
+3> /D_ATL_STATIC_REGISTRY
+2> /Zp8
+3> /c
+2> /Gy
+3> /Zc:wchar_t-
+3> /Zl
+2> /Gm-
+3> /Zp8
+3> /Gy
+2> -cbstring
+3> /Gm-
+2> /W3
+3> /W3
+2> /WX
+2> /Gz
+3> /WX
+3> /Gz
+2> /hotpatch
+2> /EHs-c-
+3> /hotpatch
+3> /EHs-c-
+2> /GR-
+2> /GF
+3> /GR-
+2> /GS
+3> /GF
+2> /Zi
+2> /Oxs
+3> /GS
+3> /Zi
+3> /Oxs
+2> /Oy-
+2> /Zi
+3> /Oy-
+2> /Fdc:\users\chase\desktop\insdewindbg\chapter_08\driverleak\sys\objfre_win7_x86\i386\
+3> /Zi
+3> /Fdc:\users\chase\desktop\insdewindbg\chapter_08\driverleak\test\objfre_win7_x86\i386\
+2> /DKMDF_MAJOR_VERSION_STRING=01
+2> /DKMDF_MINOR_VERSION_STRING=009
+3> /DKMDF_MAJOR_VERSION_STRING=01
+2> /wd4603
+3> /DKMDF_MINOR_VERSION_STRING=009
+2> /wd4627
+3> /wd4603
+2> /typedil-
+2> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+3> /wd4627
+2> .\main.c 
+3> /typedil-
+3> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+2>main.c
+3> .\main.cpp 
+3>main.cpp
+1> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_08\heapleak\exeheapleak\objfre_win7_x86\i386\host.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_08\heapleak\exeheapleak\objfre_win7_x86\i386\lnk.rsp
+1>Microsoft (R) Incremental Linker Version 9.00.30729.207
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/MERGE:_PAGE=PAGE 
+1>/MERGE:_TEXT=.text 
+1>/SECTION:INIT,d 
+1>/OPT:REF 
+1>/OPT:ICF 
+1>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+1>/INCREMENTAL:NO 
+1>/release 
+1>/NODEFAULTLIB 
+1>/WX 
+1>/debug 
+1>/debugtype:cv,fixup,pdata 
+1>/version:6.1 
+1>/osversion:6.1 
+1>/functionpadmin:5 
+1>/safeseh 
+1>/nxcompat 
+1>/merge:.rdata=.text 
+1>/pdbcompress 
+1>/STACK:0x40000,0x2000 
+1>/tsaware 
+1>/dynamicbase 
+1>/subsystem:console,6.00 
+1>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+1>/entry:wmainCRTStartup 
+1>c:\users\chase\desktop\insdewindbg\chapter_08\heapleak\exeheapleak\objfre_win7_x86\i386\main.obj 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+1>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+2> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_08\driverleak\sys\objfre_win7_x86\i386\drvleak.sys /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_08\driverleak\sys\objfre_win7_x86\i386\lnk.rsp
+1>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\multilockdeadlock *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\multilockdeadlock
+2>Microsoft (R) Incremental Linker Version 9.00.30729.207
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>/INTEGRITYCHECK 
+2>/MERGE:_PAGE=PAGE 
+2>/MERGE:_TEXT=.text 
+2>/SECTION:INIT,d 
+2>/OPT:REF 
+2>/OPT:ICF 
+2>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+2>/INCREMENTAL:NO 
+2>/release 
+2>/NODEFAULTLIB 
+2>/WX 
+2>/debug 
+2>/debugtype:cv,fixup,pdata 
+2>/version:6.1 
+2>/osversion:6.1 
+2>/functionpadmin:5 
+2>/safeseh 
+2>/pdbcompress 
+2>/STACK:0x40000,0x1000 
+2>/driver 
+2>/base:0x10000 
+2>/subsystem:native,6.00 
+2>/entry:GsDriverEntry@8 
+2>/out:c:\users\chase\desktop\insdewindbg\chapter_08\driverleak\sys\objfre_win7_x86\i386\drvleak.sys 
+2>c:\users\chase\desktop\insdewindbg\chapter_08\driverleak\sys\objfre_win7_x86\i386\main.obj 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\BufferOverflowK.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\ntoskrnl.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\hal.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\wmilib.lib 
+2>Linking for c:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\singlelockdeadlock *************
+2>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDLL=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+2>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\singlelockdeadlock
+3> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_08\driverleak\test\objfre_win7_x86\i386\drvclient.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_08\driverleak\test\objfre_win7_x86\i386\lnk.rsp
+1> cl @c:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\multilockdeadlock\objfre_win7_x86\i386\cl.rsp
+3>Microsoft (R) Incremental Linker Version 9.00.30729.207
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+3>/MERGE:_PAGE=PAGE 
+3>/MERGE:_TEXT=.text 
+3>/SECTION:INIT,d 
+3>/OPT:REF 
+3>/OPT:ICF 
+3>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+3>/INCREMENTAL:NO 
+3>/release 
+3>/NODEFAULTLIB 
+3>/WX 
+3>/debug 
+3>/debugtype:cv,fixup,pdata 
+3>/version:6.1 
+3>/osversion:6.1 
+3>/functionpadmin:5 
+3>/safeseh 
+3>/nxcompat 
+3>/merge:.rdata=.text 
+3>/pdbcompress 
+3>/STACK:0x40000,0x2000 
+3>/tsaware 
+3>/dynamicbase 
+3>/subsystem:console,6.00 
+3>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+3>/entry:wmainCRTStartup 
+3>c:\users\chase\desktop\insdewindbg\chapter_08\driverleak\test\objfre_win7_x86\i386\main.obj 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+3>c:\WinDDK\7600.16385.1\lib\atl\i386\atls.lib 
+3>c:\WinDDK\7600.16385.1\lib\atl\i386\atlthunk.lib 
+3>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\multilockdeadlock\objfre_win7_x86\i386/"
+1> /FC
+1> /Ii386
+1> /I.
+2> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\singlelockdeadlock\objfre_win7_x86\i386\test.dll /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\singlelockdeadlock\objfre_win7_x86\i386\lnk.rsp
+1> /Ic:\WinDDK\7600.16385.1\inc\atl71
+1> /I..\..\..\common\corelib
+1> /Ic:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\multilockdeadlock\objfre_win7_x86\i386
+4> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_08\refcountdb\objfre_win7_x86\i386\RefCountDB.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_08\refcountdb\objfre_win7_x86\i386\lnk.rsp
+1> /Ic:\WinDDK\7600.16385.1\inc\api
+1> /Ic:\WinDDK\7600.16385.1\inc\api
+1> /Ic:\WinDDK\7600.16385.1\inc\crt
+1> /D_X86_=1
+1> /Di386=1
+1> /DSTD_CALL
+1> /DCONDITION_HANDLING=1
+3>Linking for c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\bug *************
+3>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDLL=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+3>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\bug
+1> /DNT_UP=1
+1> /DNT_INST=0
+1> /DWIN32=100
+1> /D_NT1X_=100
+1> /DWINNT=1
+1> /D_WIN32_WINNT=0x0600
+1> /DWINVER=0x0600
+1> /D_WIN32_IE=0x0700
+1> /DWIN32_LEAN_AND_MEAN=1
+1> /DDEVL=1
+1> /D__BUILDMACHINE__=WinDDK
+1> /DFPO=0
+1> /DNDEBUG
+1> /D_DLL=1
+1> /D_MT=1
+4>Microsoft (R) Incremental Linker Version 9.00.30729.207
+4>Copyright (C) Microsoft Corporation.  All rights reserved.
+4>/MERGE:_PAGE=PAGE 
+4>/MERGE:_TEXT=.text 
+4>/SECTION:INIT,d 
+4>/OPT:REF 
+4>/OPT:ICF 
+4>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+4>/INCREMENTAL:NO 
+4>/release 
+4>/NODEFAULTLIB 
+4>/WX 
+4>/debug 
+4>/debugtype:cv,fixup,pdata 
+4>/version:6.1 
+4>/osversion:6.1 
+4>/functionpadmin:5 
+4>/safeseh 
+4>/nxcompat 
+4>/merge:.rdata=.text 
+4>/pdbcompress 
+4>/STACK:0x40000,0x2000 
+4>/tsaware 
+4>/dynamicbase 
+4>/subsystem:console,6.00 
+4>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+4>/entry:wmainCRTStartup 
+4>c:\users\chase\desktop\insdewindbg\chapter_08\refcountdb\objfre_win7_x86\i386\main.obj 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+4>c:\WinDDK\7600.16385.1\lib\atl\i386\atls.lib 
+4>c:\WinDDK\7600.16385.1\lib\atl\i386\atlthunk.lib 
+4>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+1> -DUNICODE
+1> -D_UNICODE
+1> /DNTDDI_VERSION=0x06000100
+1> /DPSAPI_VERSION=1
+1> /D_ATL_STATIC_REGISTRY
+1> /c
+1> /Zc:wchar_t-
+1> /Zl
+1> /Zp8
+1> /Gy
+1> /Gm-
+1> /W3
+1> /WX
+1> /Gz
+1> /hotpatch
+1> /EHs-c-
+2>Microsoft (R) Incremental Linker Version 9.00.30729.207
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>/MERGE:_PAGE=PAGE 
+2>/MERGE:_TEXT=.text 
+2>/SECTION:INIT,d 
+2>/OPT:REF 
+2>/OPT:ICF 
+2>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+2>/INCREMENTAL:NO 
+2>/release 
+2>/NODEFAULTLIB 
+2>/WX 
+2>/debug 
+2>/debugtype:cv,fixup,pdata 
+2>/version:6.1 
+2>/osversion:6.1 
+2>/functionpadmin:5 
+2>/safeseh 
+2>/nxcompat 
+2>/merge:.rdata=.text 
+2>/pdbcompress 
+2>/dynamicbase 
+2>/STACK:0x40000,0x1000 
+2>/dll 
+2>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,test 
+2>/subsystem:console,6.00 
+2>-entry:_DllMainCRTStartup@12 
+2>c:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\singlelockdeadlock\objfre_win7_x86\i386\test.exp 
+2>c:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\singlelockdeadlock\objfre_win7_x86\i386\test.obj 
+2>c:\WinDDK\7600.16385.1\lib\atl\i386\atls.lib 
+2>c:\WinDDK\7600.16385.1\lib\atl\i386\atlthunk.lib 
+2>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+1> /GR-
+1> /GF
+1> /GS
+1> /Zi
+1> /Oxs
+1> /Oy-
+1> /Zi
+1> /Fdc:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\multilockdeadlock\objfre_win7_x86\i386\
+1> /DKMDF_MAJOR_VERSION_STRING=01
+1> /DKMDF_MINOR_VERSION_STRING=009
+1> /wd4603
+1> /wd4627
+1> /typedil-
+1> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+1> .\main.cpp 
+1>main.cpp
+4>Linking for c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\fix *************
+4>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDLL=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+4>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\fix
+3> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\bug\objfre_win7_x86\i386\test.dll /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\bug\objfre_win7_x86\i386\lnk.rsp
+2>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\host *************
+2>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+2>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\host
+3>Microsoft (R) Incremental Linker Version 9.00.30729.207
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+3>/MERGE:_PAGE=PAGE 
+3>/MERGE:_TEXT=.text 
+3>/SECTION:INIT,d 
+3>/OPT:REF 
+3>/OPT:ICF 
+3>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+3>/INCREMENTAL:NO 
+3>/release 
+3>/NODEFAULTLIB 
+3>/WX 
+3>/debug 
+3>/debugtype:cv,fixup,pdata 
+3>/version:6.1 
+3>/osversion:6.1 
+3>/functionpadmin:5 
+3>/safeseh 
+3>/nxcompat 
+3>/merge:.rdata=.text 
+3>/pdbcompress 
+3>/dynamicbase 
+3>/STACK:0x40000,0x1000 
+3>/dll 
+3>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,test 
+3>/subsystem:console,6.00 
+3>-entry:_DllMainCRTStartup@12 
+3>c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\bug\objfre_win7_x86\i386\test.exp 
+3>c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\bug\objfre_win7_x86\i386\test.obj 
+3>c:\WinDDK\7600.16385.1\lib\atl\i386\atls.lib 
+3>c:\WinDDK\7600.16385.1\lib\atl\i386\atlthunk.lib 
+3>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+4> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\fix\objfre_win7_x86\i386\test.dll /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\fix\objfre_win7_x86\i386\lnk.rsp
+3>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_09\exeglobalslifetime *************
+3>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+3>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_09\exeglobalslifetime
+4>Microsoft (R) Incremental Linker Version 9.00.30729.207
+4>Copyright (C) Microsoft Corporation.  All rights reserved.
+4>/MERGE:_PAGE=PAGE 
+4>/MERGE:_TEXT=.text 
+4>/SECTION:INIT,d 
+4>/OPT:REF 
+4>/OPT:ICF 
+4>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+4>/INCREMENTAL:NO 
+4>/release 
+4>/NODEFAULTLIB 
+4>/WX 
+4>/debug 
+4>/debugtype:cv,fixup,pdata 
+4>/version:6.1 
+4>/osversion:6.1 
+4>/functionpadmin:5 
+4>/safeseh 
+4>/nxcompat 
+4>/merge:.rdata=.text 
+4>/pdbcompress 
+4>/dynamicbase 
+4>/STACK:0x40000,0x1000 
+4>/dll 
+4>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,test 
+4>/subsystem:console,6.00 
+4>-entry:_DllMainCRTStartup@12 
+4>c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\fix\objfre_win7_x86\i386\test.exp 
+4>c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\fix\objfre_win7_x86\i386\test.obj 
+4>c:\WinDDK\7600.16385.1\lib\atl\i386\atls.lib 
+4>c:\WinDDK\7600.16385.1\lib\atl\i386\atlthunk.lib 
+4>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+4>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_09\threadctxlifetime\bug *************
+4>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+4>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_09\threadctxlifetime\bug
+2> cl @c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\host\objfre_win7_x86\i386\cl.rsp
+2>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\host\objfre_win7_x86\i386/"
+2> /FC
+2> /Ii386
+2> /I.
+2> /Ic:\WinDDK\7600.16385.1\inc\atl71
+2> /I..\..\..\common\corelib
+2> /Ic:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\host\objfre_win7_x86\i386
+2> /Ic:\WinDDK\7600.16385.1\inc\api
+2> /Ic:\WinDDK\7600.16385.1\inc\api
+2> /Ic:\WinDDK\7600.16385.1\inc\crt
+2> /D_X86_=1
+2> /Di386=1
+2> /DSTD_CALL
+2> /DCONDITION_HANDLING=1
+2> /DNT_UP=1
+2> /DNT_INST=0
+2> /DWIN32=100
+2> /D_NT1X_=100
+2> /DWINNT=1
+2> /D_WIN32_WINNT=0x0600
+2> /DWINVER=0x0600
+2> /D_WIN32_IE=0x0700
+2> /DWIN32_LEAN_AND_MEAN=1
+2> /DDEVL=1
+2> /D__BUILDMACHINE__=WinDDK
+2> /DFPO=0
+2> /DNDEBUG
+2> /D_DLL=1
+2> /D_MT=1
+2> -DUNICODE
+2> -D_UNICODE
+2> /DNTDDI_VERSION=0x06000100
+2> /DPSAPI_VERSION=1
+2> /D_ATL_STATIC_REGISTRY
+2> /c
+2> /Zc:wchar_t-
+2> /Zl
+2> /Zp8
+2> /Gy
+2> /Gm-
+2> /W3
+2> /WX
+2> /Gz
+2> /hotpatch
+2> /EHs-c-
+2> /GR-
+2> /GF
+2> /GS
+2> /Zi
+2> /Oxs
+2> /Oy-
+2> /Zi
+2> /Fdc:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\host\objfre_win7_x86\i386\
+2> /DKMDF_MAJOR_VERSION_STRING=01
+2> /DKMDF_MINOR_VERSION_STRING=009
+2> /wd4603
+2> /wd4627
+2> /typedil-
+2> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+2> .\main.cpp 
+2>main.cpp
+3> cl @c:\users\chase\desktop\insdewindbg\chapter_09\exeglobalslifetime\objfre_win7_x86\i386\cl.rsp
+3>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+3>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_09\exeglobalslifetime\objfre_win7_x86\i386/"
+3> /FC
+3> /Ii386
+3> /I.
+3> /Ic:\WinDDK\7600.16385.1\inc\atl71
+3> /I..\..\common\corelib
+3> /Ic:\users\chase\desktop\insdewindbg\chapter_09\exeglobalslifetime\objfre_win7_x86\i386
+3> /Ic:\WinDDK\7600.16385.1\inc\api
+3> /Ic:\WinDDK\7600.16385.1\inc\api
+3> /Ic:\WinDDK\7600.16385.1\inc\crt
+3> /D_X86_=1
+3> /Di386=1
+3> /DSTD_CALL
+3> /DCONDITION_HANDLING=1
+3> /DNT_UP=1
+3> /DNT_INST=0
+3> /DWIN32=100
+3> /D_NT1X_=100
+3> /DWINNT=1
+3> /D_WIN32_WINNT=0x0600
+3> /DWINVER=0x0600
+3> /D_WIN32_IE=0x0700
+3> /DWIN32_LEAN_AND_MEAN=1
+3> /DDEVL=1
+3> /D__BUILDMACHINE__=WinDDK
+3> /DFPO=0
+3> /DNDEBUG
+3> /D_DLL=1
+3> /D_MT=1
+3> -DUNICODE
+3> -D_UNICODE
+3> /DNTDDI_VERSION=0x06000100
+3> /DPSAPI_VERSION=1
+3> /D_ATL_STATIC_REGISTRY
+3> /c
+3> /Zc:wchar_t-
+3> /Zl
+3> /Zp8
+3> /Gy
+3> /Gm-
+3> /W3
+3> /WX
+3> /Gz
+3> /hotpatch
+3> /EHs-c-
+3> /GR-
+3> /GF
+3> /GS
+3> /Zi
+3> /Oxs
+3> /Oy-
+3> /Zi
+3> /Fdc:\users\chase\desktop\insdewindbg\chapter_09\exeglobalslifetime\objfre_win7_x86\i386\
+3> /DKMDF_MAJOR_VERSION_STRING=01
+3> /DKMDF_MINOR_VERSION_STRING=009
+3> /wd4603
+3> /wd4627
+3> /typedil-
+3> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+3> .\bug.cpp 
+3>bug.cpp
+4> cl @c:\users\chase\desktop\insdewindbg\chapter_09\threadctxlifetime\bug\objfre_win7_x86\i386\cl.rsp
+4>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+4>Copyright (C) Microsoft Corporation.  All rights reserved.
+4>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_09\threadctxlifetime\bug\objfre_win7_x86\i386/"
+4> /FC
+4> /Ii386
+4> /I.
+4> /Ic:\WinDDK\7600.16385.1\inc\atl71
+4> /I..\..\..\common\corelib
+4> /Ic:\users\chase\desktop\insdewindbg\chapter_09\threadctxlifetime\bug\objfre_win7_x86\i386
+4> /Ic:\WinDDK\7600.16385.1\inc\api
+4> /Ic:\WinDDK\7600.16385.1\inc\api
+4> /Ic:\WinDDK\7600.16385.1\inc\crt
+4> /D_X86_=1
+4> /Di386=1
+4> /DSTD_CALL
+4> /DCONDITION_HANDLING=1
+4> /DNT_UP=1
+4> /DNT_INST=0
+4> /DWIN32=100
+4> /D_NT1X_=100
+4> /DWINNT=1
+4> /D_WIN32_WINNT=0x0600
+4> /DWINVER=0x0600
+4> /D_WIN32_IE=0x0700
+4> /DWIN32_LEAN_AND_MEAN=1
+4> /DDEVL=1
+4> /D__BUILDMACHINE__=WinDDK
+4> /DFPO=0
+4> /DNDEBUG
+4> /D_DLL=1
+4> /D_MT=1
+4> -DUNICODE
+4> -D_UNICODE
+4> /DNTDDI_VERSION=0x06000100
+4> /DPSAPI_VERSION=1
+4> /D_ATL_STATIC_REGISTRY
+4> /c
+4> /Zc:wchar_t-
+4> /Zl
+4> /Zp8
+4> /Gy
+4> /Gm-
+4> /W3
+4> /WX
+4> /Gz
+4> /hotpatch
+4> /EHs-c-
+4> /GR-
+4> /GF
+4> /GS
+4> /Zi
+4> /Oxs
+4> /Oy-
+4> /Zi
+4> /Fdc:\users\chase\desktop\insdewindbg\chapter_09\threadctxlifetime\bug\objfre_win7_x86\i386\
+4> /DKMDF_MAJOR_VERSION_STRING=01
+4> /DKMDF_MINOR_VERSION_STRING=009
+4> /wd4603
+4> /wd4627
+4> /typedil-
+4> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+4> .\main.cpp 
+4>main.cpp
+1> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\multilockdeadlock\objfre_win7_x86\i386\bug.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\multilockdeadlock\objfre_win7_x86\i386\lnk.rsp
+1>Microsoft (R) Incremental Linker Version 9.00.30729.207
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/MERGE:_PAGE=PAGE 
+1>/MERGE:_TEXT=.text 
+1>/SECTION:INIT,d 
+1>/OPT:REF 
+1>/OPT:ICF 
+1>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+1>/INCREMENTAL:NO 
+1>/release 
+1>/NODEFAULTLIB 
+1>/WX 
+1>/debug 
+1>/debugtype:cv,fixup,pdata 
+1>/version:6.1 
+1>/osversion:6.1 
+1>/functionpadmin:5 
+1>/safeseh 
+1>/nxcompat 
+1>/merge:.rdata=.text 
+1>/pdbcompress 
+1>/STACK:0x40000,0x2000 
+1>/tsaware 
+1>/dynamicbase 
+1>/subsystem:console,6.00 
+1>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+1>/entry:wmainCRTStartup 
+1>c:\users\chase\desktop\insdewindbg\chapter_09\deadlocks\multilockdeadlock\objfre_win7_x86\i386\main.obj 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+1>c:\WinDDK\7600.16385.1\lib\atl\i386\atls.lib 
+1>c:\WinDDK\7600.16385.1\lib\atl\i386\atlthunk.lib 
+1>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+1>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_09\threadctxlifetime\fix *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_09\threadctxlifetime\fix
+1> cl @c:\users\chase\desktop\insdewindbg\chapter_09\threadctxlifetime\fix\objfre_win7_x86\i386\cl.rsp
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_09\threadctxlifetime\fix\objfre_win7_x86\i386/"
+1> /FC
+1> /Ii386
+1> /I.
+1> /Ic:\WinDDK\7600.16385.1\inc\atl71
+1> /I..\..\..\common\corelib
+1> /Ic:\users\chase\desktop\insdewindbg\chapter_09\threadctxlifetime\fix\objfre_win7_x86\i386
+1> /Ic:\WinDDK\7600.16385.1\inc\api
+1> /Ic:\WinDDK\7600.16385.1\inc\api
+1> /Ic:\WinDDK\7600.16385.1\inc\crt
+1> /D_X86_=1
+1> /Di386=1
+1> /DSTD_CALL
+1> /DCONDITION_HANDLING=1
+1> /DNT_UP=1
+1> /DNT_INST=0
+1> /DWIN32=100
+1> /D_NT1X_=100
+1> /DWINNT=1
+1> /D_WIN32_WINNT=0x0600
+1> /DWINVER=0x0600
+1> /D_WIN32_IE=0x0700
+1> /DWIN32_LEAN_AND_MEAN=1
+1> /DDEVL=1
+1> /D__BUILDMACHINE__=WinDDK
+1> /DFPO=0
+1> /DNDEBUG
+1> /D_DLL=1
+1> /D_MT=1
+1> -DUNICODE
+1> -D_UNICODE
+1> /DNTDDI_VERSION=0x06000100
+1> /DPSAPI_VERSION=1
+1> /D_ATL_STATIC_REGISTRY
+1> /c
+2> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\host\objfre_win7_x86\i386\host.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\host\objfre_win7_x86\i386\lnk.rsp
+1> /Zc:wchar_t-
+1> /Zl
+1> /Zp8
+1> /Gy
+1> /Gm-
+1> /W3
+1> /WX
+1> /Gz
+1> /hotpatch
+1> /EHs-c-
+1> /GR-
+1> /GF
+1> /GS
+1> /Zi
+1> /Oxs
+1> /Oy-
+1> /Zi
+1> /Fdc:\users\chase\desktop\insdewindbg\chapter_09\threadctxlifetime\fix\objfre_win7_x86\i386\
+1> /DKMDF_MAJOR_VERSION_STRING=01
+1> /DKMDF_MINOR_VERSION_STRING=009
+1> /wd4603
+1> /wd4627
+1> /typedil-
+1> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+1> .\main.cpp 
+1>main.cpp
+2>Microsoft (R) Incremental Linker Version 9.00.30729.207
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>/MERGE:_PAGE=PAGE 
+2>/MERGE:_TEXT=.text 
+2>/SECTION:INIT,d 
+2>/OPT:REF 
+2>/OPT:ICF 
+2>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+2>/INCREMENTAL:NO 
+2>/release 
+2>/NODEFAULTLIB 
+2>/WX 
+2>/debug 
+2>/debugtype:cv,fixup,pdata 
+2>/version:6.1 
+2>/osversion:6.1 
+2>/functionpadmin:5 
+2>/safeseh 
+2>/nxcompat 
+2>/merge:.rdata=.text 
+2>/pdbcompress 
+2>/STACK:0x40000,0x2000 
+2>/tsaware 
+2>/dynamicbase 
+2>/subsystem:console,6.00 
+2>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+2>/entry:wmainCRTStartup 
+2>c:\users\chase\desktop\insdewindbg\chapter_09\dlllifetimeracecondition\host\objfre_win7_x86\i386\main.obj 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+2>c:\WinDDK\7600.16385.1\lib\atl\i386\atls.lib 
+2>c:\WinDDK\7600.16385.1\lib\atl\i386\atlthunk.lib 
+2>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+3> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_09\exeglobalslifetime\objfre_win7_x86\i386\bug.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_09\exeglobalslifetime\objfre_win7_x86\i386\lnk.rsp
+3>Microsoft (R) Incremental Linker Version 9.00.30729.207
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+3>/MERGE:_PAGE=PAGE 
+3>/MERGE:_TEXT=.text 
+3>/SECTION:INIT,d 
+3>/OPT:REF 
+3>/OPT:ICF 
+3>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+3>/INCREMENTAL:NO 
+3>/release 
+3>/NODEFAULTLIB 
+3>/WX 
+3>/debug 
+3>/debugtype:cv,fixup,pdata 
+3>/version:6.1 
+3>/osversion:6.1 
+3>/functionpadmin:5 
+3>/safeseh 
+3>/nxcompat 
+3>/merge:.rdata=.text 
+3>/pdbcompress 
+3>/STACK:0x40000,0x2000 
+3>/tsaware 
+3>/dynamicbase 
+3>/subsystem:console,6.00 
+3>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+3>/entry:wmainCRTStartup 
+3>c:\users\chase\desktop\insdewindbg\chapter_09\exeglobalslifetime\objfre_win7_x86\i386\bug.obj 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+3>c:\WinDDK\7600.16385.1\lib\atl\i386\atls.lib 
+3>c:\WinDDK\7600.16385.1\lib\atl\i386\atlthunk.lib 
+3>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+2>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_10\consoleapp *************
+2>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+2>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_10\consoleapp
+3>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_12\loggingapp *************
+3>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+3>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_12\loggingapp
+4> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_09\threadctxlifetime\bug\objfre_win7_x86\i386\NoRefCountingBug.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_09\threadctxlifetime\bug\objfre_win7_x86\i386\lnk.rsp
+4>Microsoft (R) Incremental Linker Version 9.00.30729.207
+4>Copyright (C) Microsoft Corporation.  All rights reserved.
+4>/MERGE:_PAGE=PAGE 
+4>/MERGE:_TEXT=.text 
+4>/SECTION:INIT,d 
+4>/OPT:REF 
+4>/OPT:ICF 
+4>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+4>/INCREMENTAL:NO 
+4>/release 
+4>/NODEFAULTLIB 
+4>/WX 
+4>/debug 
+4>/debugtype:cv,fixup,pdata 
+4>/version:6.1 
+4>/osversion:6.1 
+4>/functionpadmin:5 
+4>/safeseh 
+4>/nxcompat 
+4>/merge:.rdata=.text 
+4>/pdbcompress 
+4>/STACK:0x40000,0x2000 
+4>/tsaware 
+4>/dynamicbase 
+4>/subsystem:console,6.00 
+4>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+4>/entry:wmainCRTStartup 
+4>c:\users\chase\desktop\insdewindbg\chapter_09\threadctxlifetime\bug\objfre_win7_x86\i386\main.obj 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+4>c:\WinDDK\7600.16385.1\lib\atl\i386\atls.lib 
+4>c:\WinDDK\7600.16385.1\lib\atl\i386\atlthunk.lib 
+4>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+4>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_13\kill *************
+4>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+4>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_13\kill
+2> cl @c:\users\chase\desktop\insdewindbg\chapter_10\consoleapp\objfre_win7_x86\i386\cl.rsp
+3> cl @c:\users\chase\desktop\insdewindbg\chapter_12\loggingapp\objfre_win7_x86\i386\cl.rsp
+2>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_10\consoleapp\objfre_win7_x86\i386/"
+2> /FC
+2> /Ii386
+2> /I.
+2> /I..\..\common\corelib
+2> /Ic:\users\chase\desktop\insdewindbg\chapter_10\consoleapp\objfre_win7_x86\i386
+2> /Ic:\WinDDK\7600.16385.1\inc\api
+2> /Ic:\WinDDK\7600.16385.1\inc\api
+2> /Ic:\WinDDK\7600.16385.1\inc\crt
+2> /D_X86_=1
+2> /Di386=1
+2> /DSTD_CALL
+2> /DCONDITION_HANDLING=1
+2> /DNT_UP=1
+2> /DNT_INST=0
+2> /DWIN32=100
+2> /D_NT1X_=100
+2> /DWINNT=1
+2> /D_WIN32_WINNT=0x0600
+2> /DWINVER=0x0600
+2> /D_WIN32_IE=0x0700
+2> /DWIN32_LEAN_AND_MEAN=1
+2> /DDEVL=1
+2> /D__BUILDMACHINE__=WinDDK
+2> /DFPO=0
+2> /DNDEBUG
+2> /D_DLL=1
+2> /D_MT=1
+2> -DUNICODE
+2> -D_UNICODE
+2> /DNTDDI_VERSION=0x06000100
+2> /DPSAPI_VERSION=1
+2> /c
+2> /Zc:wchar_t-
+2> /Zl
+2> /Zp8
+2> /Gy
+2> /Gm-
+2> /W3
+2> /WX
+2> /Gz
+2> /hotpatch
+2> /EHs-c-
+2> /GR-
+2> /GF
+2> /GS
+2> /Zi
+2> /Oxs
+2> /Oy-
+2> /Zi
+2> /Fdc:\users\chase\desktop\insdewindbg\chapter_10\consoleapp\objfre_win7_x86\i386\
+2> /DKMDF_MAJOR_VERSION_STRING=01
+2> /DKMDF_MINOR_VERSION_STRING=009
+2> /wd4603
+2> /wd4627
+2> /typedil-
+2> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+3>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+2> .\main.cpp 
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+3>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_12\loggingapp\objfre_win7_x86\i386/"
+3> /FC
+2>main.cpp
+3> /Ii386
+3> /I.
+3> /Ic:\WinDDK\7600.16385.1\inc\atl71
+3> /I..\..\common\corelib
+3> /Ic:\users\chase\desktop\insdewindbg\chapter_12\loggingapp\objfre_win7_x86\i386
+3> /Ic:\WinDDK\7600.16385.1\inc\api
+3> /Ic:\WinDDK\7600.16385.1\inc\api
+3> /Ic:\WinDDK\7600.16385.1\inc\crt
+3> /D_X86_=1
+3> /Di386=1
+3> /DSTD_CALL
+3> /DCONDITION_HANDLING=1
+3> /DNT_UP=1
+3> /DNT_INST=0
+3> /DWIN32=100
+3> /D_NT1X_=100
+3> /DWINNT=1
+3> /D_WIN32_WINNT=0x0600
+3> /DWINVER=0x0600
+3> /D_WIN32_IE=0x0700
+3> /DWIN32_LEAN_AND_MEAN=1
+3> /DDEVL=1
+3> /D__BUILDMACHINE__=WinDDK
+3> /DFPO=0
+3> /DNDEBUG
+3> /D_DLL=1
+3> /D_MT=1
+3> -DUNICODE
+3> -D_UNICODE
+3> /DNTDDI_VERSION=0x06000100
+3> /DPSAPI_VERSION=1
+3> /D_ATL_STATIC_REGISTRY
+3> /c
+3> /Zc:wchar_t-
+3> /Zl
+3> /Zp8
+3> /Gy
+3> /Gm-
+3> /W3
+3> /WX
+3> /Gz
+3> /hotpatch
+3> /EHs-c-
+3> /GR-
+3> /GF
+3> /GS
+3> /Zi
+3> /Oxs
+3> /Oy-
+3> /Zi
+3> /Fdc:\users\chase\desktop\insdewindbg\chapter_12\loggingapp\objfre_win7_x86\i386\
+3> /DKMDF_MAJOR_VERSION_STRING=01
+3> /DKMDF_MINOR_VERSION_STRING=009
+3> /wd4603
+3> /wd4627
+3> /typedil-
+3> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+3> .\main.cpp 
+3>main.cpp
+4> cl @c:\users\chase\desktop\insdewindbg\chapter_13\kill\objfre_win7_x86\i386\cl.rsp
+4>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+4>Copyright (C) Microsoft Corporation.  All rights reserved.
+4>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_13\kill\objfre_win7_x86\i386/"
+4> /FC
+4> /Ii386
+4> /I.
+4> /Ic:\WinDDK\7600.16385.1\inc\atl71
+4> /I..\..\common\corelib
+4> /Ic:\users\chase\desktop\insdewindbg\chapter_13\kill\objfre_win7_x86\i386
+4> /Ic:\WinDDK\7600.16385.1\inc\api
+4> /Ic:\WinDDK\7600.16385.1\inc\api
+4> /Ic:\WinDDK\7600.16385.1\inc\crt
+4> /D_X86_=1
+4> /Di386=1
+4> /DSTD_CALL
+4> /DCONDITION_HANDLING=1
+4> /DNT_UP=1
+4> /DNT_INST=0
+4> /DWIN32=100
+4> /D_NT1X_=100
+4> /DWINNT=1
+4> /D_WIN32_WINNT=0x0600
+4> /DWINVER=0x0600
+4> /D_WIN32_IE=0x0700
+4> /DWIN32_LEAN_AND_MEAN=1
+4> /DDEVL=1
+4> /D__BUILDMACHINE__=WinDDK
+4> /DFPO=0
+4> /DNDEBUG
+4> /D_DLL=1
+4> /D_MT=1
+4> -DUNICODE
+4> -D_UNICODE
+4> /DNTDDI_VERSION=0x06000100
+4> /DPSAPI_VERSION=1
+4> /D_ATL_STATIC_REGISTRY
+4> /c
+4> /Zc:wchar_t-
+4> /Zl
+4> /Zp8
+4> /Gy
+4> /Gm-
+4> /W3
+4> /WX
+4> /Gz
+4> /hotpatch
+4> /EHs-c-
+4> /GR-
+4> /GF
+4> /GS
+4> /Zi
+4> /Oxs
+4> /Oy-
+4> /Zi
+4> /Fdc:\users\chase\desktop\insdewindbg\chapter_13\kill\objfre_win7_x86\i386\
+4> /DKMDF_MAJOR_VERSION_STRING=01
+4> /DKMDF_MINOR_VERSION_STRING=009
+4> /wd4603
+4> /wd4627
+4> /typedil-
+4> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+4> .\main.cpp 
+4>main.cpp
+2> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_10\consoleapp\objfre_win7_x86\i386\consoleapp.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_10\consoleapp\objfre_win7_x86\i386\lnk.rsp
+2>Microsoft (R) Incremental Linker Version 9.00.30729.207
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>/MERGE:_PAGE=PAGE 
+2>/MERGE:_TEXT=.text 
+2>/SECTION:INIT,d 
+2>/OPT:REF 
+2>/OPT:ICF 
+2>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+2>/INCREMENTAL:NO 
+2>/release 
+2>/NODEFAULTLIB 
+2>/WX 
+2>/debug 
+2>/debugtype:cv,fixup,pdata 
+2>/version:6.1 
+2>/osversion:6.1 
+2>/functionpadmin:5 
+2>/safeseh 
+2>/nxcompat 
+2>/merge:.rdata=.text 
+2>/pdbcompress 
+2>/STACK:0x40000,0x2000 
+2>/tsaware 
+2>/dynamicbase 
+2>/subsystem:console,6.00 
+2>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+2>/entry:wmainCRTStartup 
+2>c:\users\chase\desktop\insdewindbg\chapter_10\consoleapp\objfre_win7_x86\i386\main.obj 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+2>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+1> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_09\threadctxlifetime\fix\objfre_win7_x86\i386\CorrectRefCounting.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_09\threadctxlifetime\fix\objfre_win7_x86\i386\lnk.rsp
+1>Microsoft (R) Incremental Linker Version 9.00.30729.207
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/MERGE:_PAGE=PAGE 
+1>/MERGE:_TEXT=.text 
+1>/SECTION:INIT,d 
+1>/OPT:REF 
+1>/OPT:ICF 
+1>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+1>/INCREMENTAL:NO 
+1>/release 
+1>/NODEFAULTLIB 
+1>/WX 
+1>/debug 
+1>/debugtype:cv,fixup,pdata 
+1>/version:6.1 
+1>/osversion:6.1 
+1>/functionpadmin:5 
+1>/safeseh 
+1>/nxcompat 
+1>/merge:.rdata=.text 
+1>/pdbcompress 
+1>/STACK:0x40000,0x2000 
+1>/tsaware 
+1>/dynamicbase 
+1>/subsystem:console,6.00 
+1>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+1>/entry:wmainCRTStartup 
+1>c:\users\chase\desktop\insdewindbg\chapter_09\threadctxlifetime\fix\objfre_win7_x86\i386\main.obj 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+1>c:\WinDDK\7600.16385.1\lib\atl\i386\atls.lib 
+1>c:\WinDDK\7600.16385.1\lib\atl\i386\atlthunk.lib 
+1>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+2>Compiling and Linking c:\users\chase\desktop\insdewindbg\chapter_13\ntheapmemory *************
+2>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+2>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\chapter_13\ntheapmemory
+1>Compiling and Linking c:\users\chase\desktop\insdewindbg\tools\dllhost *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>BUILDMSG: Processing c:\users\chase\desktop\insdewindbg\tools\dllhost
+2> cl @c:\users\chase\desktop\insdewindbg\chapter_13\ntheapmemory\objfre_win7_x86\i386\cl.rsp
+1> cl @c:\users\chase\desktop\insdewindbg\tools\dllhost\objfre_win7_x86\i386\cl.rsp
+2>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>cl /Fo"c:\users\chase\desktop\insdewindbg\chapter_13\ntheapmemory\objfre_win7_x86\i386/"
+2> /FC
+2> /Ii386
+2> /I.
+2> /Ic:\WinDDK\7600.16385.1\inc\atl71
+2> /I..\..\common\corelib
+2> /Ic:\users\chase\desktop\insdewindbg\chapter_13\ntheapmemory\objfre_win7_x86\i386
+2> /Ic:\WinDDK\7600.16385.1\inc\api
+2> /Ic:\WinDDK\7600.16385.1\inc\api
+2> /Ic:\WinDDK\7600.16385.1\inc\crt
+2> /D_X86_=1
+2> /Di386=1
+2> /DSTD_CALL
+2> /DCONDITION_HANDLING=1
+2> /DNT_UP=1
+2> /DNT_INST=0
+2> /DWIN32=100
+2> /D_NT1X_=100
+2> /DWINNT=1
+2> /D_WIN32_WINNT=0x0600
+2> /DWINVER=0x0600
+2> /D_WIN32_IE=0x0700
+3> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_12\loggingapp\objfre_win7_x86\i386\LoggingApp.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_12\loggingapp\objfre_win7_x86\i386\lnk.rsp
+2> /DWIN32_LEAN_AND_MEAN=1
+2> /DDEVL=1
+2> /D__BUILDMACHINE__=WinDDK
+2> /DFPO=0
+2> /DNDEBUG
+2> /D_DLL=1
+2> /D_MT=1
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+2> -DUNICODE
+2> -D_UNICODE
+2> /DNTDDI_VERSION=0x06000100
+2> /DPSAPI_VERSION=1
+2> /D_ATL_STATIC_REGISTRY
+2> /c
+2> /Zc:wchar_t-
+2> /Zl
+2> /Zp8
+2> /Gy
+1>cl /Fo"c:\users\chase\desktop\insdewindbg\tools\dllhost\objfre_win7_x86\i386/"
+2> /Gm-
+2> /W3
+1> /FC
+1> /Ii386
+1> /I.
+2> /WX
+2> /Gz
+2> /hotpatch
+2> /EHs-c-
+1> /Ic:\WinDDK\7600.16385.1\inc\atl71
+2> /GR-
+1> /I..\..\common\corelib
+2> /GF
+1> /Ic:\users\chase\desktop\insdewindbg\tools\dllhost\objfre_win7_x86\i386
+2> /GS
+2> /Zi
+1> /Ic:\WinDDK\7600.16385.1\inc\api
+1> /Ic:\WinDDK\7600.16385.1\inc\api
+2> /Oxs
+1> /Ic:\WinDDK\7600.16385.1\inc\crt
+1> /D_X86_=1
+1> /Di386=1
+2> /Oy-
+2> /Zi
+2> /Fdc:\users\chase\desktop\insdewindbg\chapter_13\ntheapmemory\objfre_win7_x86\i386\
+1> /DSTD_CALL
+1> /DCONDITION_HANDLING=1
+1> /DNT_UP=1
+1> /DNT_INST=0
+1> /DWIN32=100
+1> /D_NT1X_=100
+1> /DWINNT=1
+2> /DKMDF_MAJOR_VERSION_STRING=01
+2> /DKMDF_MINOR_VERSION_STRING=009
+2> /wd4603
+2> /wd4627
+2> /typedil-
+1> /D_WIN32_WINNT=0x0600
+2> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+1> /DWINVER=0x0600
+1> /D_WIN32_IE=0x0700
+1> /DWIN32_LEAN_AND_MEAN=1
+1> /DDEVL=1
+2> .\main.cpp 
+1> /D__BUILDMACHINE__=WinDDK
+1> /DFPO=0
+1> /DNDEBUG
+1> /D_DLL=1
+1> /D_MT=1
+1> -DUNICODE
+1> -D_UNICODE
+2>main.cpp
+1> /DNTDDI_VERSION=0x06000100
+1> /DPSAPI_VERSION=1
+1> /D_ATL_STATIC_REGISTRY
+1> /c
+1> /Zc:wchar_t-
+1> /Zl
+1> /Zp8
+1> /Gy
+1> /Gm-
+1> /W3
+1> /WX
+1> /Gz
+1> /hotpatch
+1> /EHs-c-
+1> /GR-
+1> /GF
+1> /GS
+1> /Zi
+1> /Oxs
+1> /Oy-
+1> /Zi
+1> /Fdc:\users\chase\desktop\insdewindbg\tools\dllhost\objfre_win7_x86\i386\
+1> /DKMDF_MAJOR_VERSION_STRING=01
+1> /DKMDF_MINOR_VERSION_STRING=009
+1> /wd4603
+1> /wd4627
+1> /typedil-
+1> /FIc:\WinDDK\7600.16385.1\inc\api\warning.h
+1> .\main.cpp 
+1>main.cpp
+3>Microsoft (R) Incremental Linker Version 9.00.30729.207
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+3>/MERGE:_PAGE=PAGE 
+3>/MERGE:_TEXT=.text 
+3>/SECTION:INIT,d 
+3>/OPT:REF 
+3>/OPT:ICF 
+3>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+3>/INCREMENTAL:NO 
+3>/release 
+3>/NODEFAULTLIB 
+3>/WX 
+3>/debug 
+3>/debugtype:cv,fixup,pdata 
+3>/version:6.1 
+3>/osversion:6.1 
+3>/functionpadmin:5 
+3>/safeseh 
+3>/nxcompat 
+3>/merge:.rdata=.text 
+3>/pdbcompress 
+3>/STACK:0x40000,0x2000 
+3>/tsaware 
+3>/dynamicbase 
+3>/subsystem:console,6.00 
+3>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+3>/entry:wmainCRTStartup 
+3>c:\users\chase\desktop\insdewindbg\chapter_12\loggingapp\objfre_win7_x86\i386\main.obj 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+3>c:\WinDDK\7600.16385.1\lib\atl\i386\atls.lib 
+3>c:\WinDDK\7600.16385.1\lib\atl\i386\atlthunk.lib 
+3>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\oleaut32.lib 
+3>c:\WinDDK\7600.16385.1\lib\win7\i386\user32.lib 
+4> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_13\kill\objfre_win7_x86\i386\kill.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_13\kill\objfre_win7_x86\i386\lnk.rsp
+4>Microsoft (R) Incremental Linker Version 9.00.30729.207
+4>Copyright (C) Microsoft Corporation.  All rights reserved.
+4>/MERGE:_PAGE=PAGE 
+4>/MERGE:_TEXT=.text 
+4>/SECTION:INIT,d 
+4>/OPT:REF 
+4>/OPT:ICF 
+4>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+4>/INCREMENTAL:NO 
+4>/release 
+4>/NODEFAULTLIB 
+4>/WX 
+4>/debug 
+4>/debugtype:cv,fixup,pdata 
+4>/version:6.1 
+4>/osversion:6.1 
+4>/functionpadmin:5 
+4>/safeseh 
+4>/nxcompat 
+4>/merge:.rdata=.text 
+4>/pdbcompress 
+4>/STACK:0x40000,0x2000 
+4>/tsaware 
+4>/dynamicbase 
+4>/subsystem:console,6.00 
+4>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+4>/entry:wmainCRTStartup 
+4>c:\users\chase\desktop\insdewindbg\chapter_13\kill\objfre_win7_x86\i386\main.obj 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+4>c:\WinDDK\7600.16385.1\lib\atl\i386\atls.lib 
+4>c:\WinDDK\7600.16385.1\lib\atl\i386\atlthunk.lib 
+4>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+4>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+1> link.exe /out:c:\users\chase\desktop\insdewindbg\tools\dllhost\objfre_win7_x86\i386\host.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\tools\dllhost\objfre_win7_x86\i386\lnk.rsp
+1>Microsoft (R) Incremental Linker Version 9.00.30729.207
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/MERGE:_PAGE=PAGE 
+1>/MERGE:_TEXT=.text 
+1>/SECTION:INIT,d 
+1>/OPT:REF 
+1>/OPT:ICF 
+1>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+1>/INCREMENTAL:NO 
+1>/release 
+1>/NODEFAULTLIB 
+1>/WX 
+1>/debug 
+1>/debugtype:cv,fixup,pdata 
+1>/version:6.1 
+1>/osversion:6.1 
+1>/functionpadmin:5 
+1>/safeseh 
+1>/nxcompat 
+1>/merge:.rdata=.text 
+1>/pdbcompress 
+1>/STACK:0x40000,0x2000 
+1>/tsaware 
+1>/dynamicbase 
+1>/subsystem:console,6.00 
+1>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+1>/entry:wmainCRTStartup 
+1>c:\users\chase\desktop\insdewindbg\tools\dllhost\objfre_win7_x86\i386\main.obj 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+1>c:\WinDDK\7600.16385.1\lib\atl\i386\atls.lib 
+1>c:\WinDDK\7600.16385.1\lib\atl\i386\atlthunk.lib 
+1>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+1>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+2> link.exe /out:c:\users\chase\desktop\insdewindbg\chapter_13\ntheapmemory\objfre_win7_x86\i386\leak.exe /machine:ix86 @c:\users\chase\desktop\insdewindbg\chapter_13\ntheapmemory\objfre_win7_x86\i386\lnk.rsp
+2>Microsoft (R) Incremental Linker Version 9.00.30729.207
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>/MERGE:_PAGE=PAGE 
+2>/MERGE:_TEXT=.text 
+2>/SECTION:INIT,d 
+2>/OPT:REF 
+2>/OPT:ICF 
+2>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+2>/INCREMENTAL:NO 
+2>/release 
+2>/NODEFAULTLIB 
+2>/WX 
+2>/debug 
+2>/debugtype:cv,fixup,pdata 
+2>/version:6.1 
+2>/osversion:6.1 
+2>/functionpadmin:5 
+2>/safeseh 
+2>/nxcompat 
+2>/merge:.rdata=.text 
+2>/pdbcompress 
+2>/STACK:0x40000,0x2000 
+2>/tsaware 
+2>/dynamicbase 
+2>/subsystem:console,6.00 
+2>/base:@c:\WinDDK\7600.16385.1\bin\coffbase.txt,usermode 
+2>/entry:wmainCRTStartup 
+2>c:\users\chase\desktop\insdewindbg\chapter_13\ntheapmemory\objfre_win7_x86\i386\main.obj 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+2>c:\WinDDK\7600.16385.1\lib\atl\i386\atls.lib 
+2>c:\WinDDK\7600.16385.1\lib\atl\i386\atlthunk.lib 
+2>c:\WinDDK\7600.16385.1\lib\crt\i386\msvcrt.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\kernel32.lib 
+2>c:\WinDDK\7600.16385.1\lib\win7\i386\advapi32.lib 
